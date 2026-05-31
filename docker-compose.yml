@@ -1,0 +1,73 @@
+services:
+
+  # ── Ollama (runs the LLM) ──────────────────────────────────────────────────
+  ollama:
+    image: ollama/ollama:latest
+    container_name: facet-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_ORIGINS=*
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # ── Model init (pulls model on first run) ─────────────────────────────────
+  ollama-init:
+    image: curlimages/curl:latest
+    container_name: facet-ollama-init
+    depends_on:
+      ollama:
+        condition: service_healthy
+    entrypoint: >
+      sh -c "
+        echo 'Pulling qwen2.5:7b model (this may take a few minutes on first run)...' &&
+        curl -X POST http://ollama:11434/api/pull -d '{\"name\": \"qwen2.5:7b\"}' &&
+        echo 'Model ready!'
+      "
+    restart: "no"
+
+  # ── FastAPI backend ────────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: facet-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/../data      # share the data directory
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - MODEL_NAME=qwen2.5:7b
+      - FACETS_PER_BATCH=20
+      - MAX_CONCURRENT_WORKERS=3
+    depends_on:
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  # ── React frontend ─────────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: facet-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+
+volumes:
+  ollama_data:
+    name: facet-eval-ollama-data

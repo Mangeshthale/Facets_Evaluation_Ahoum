@@ -1,0 +1,75 @@
+### Facet Eval API — VS Code REST Client
+### Install: "REST Client" extension by Humao
+### Usage: Click "Send Request" above any request block
+
+@baseUrl = http://localhost:8000
+
+###
+# 1. Health check — is Ollama up and model loaded?
+GET {{baseUrl}}/health
+
+###
+# 2. List all facets
+GET {{baseUrl}}/facets
+
+###
+# 3. List facets filtered by category
+GET {{baseUrl}}/facets?category=emotional
+
+###
+# 4. List hard-difficulty facets only
+GET {{baseUrl}}/facets?difficulty=hard
+
+###
+# 5. Score a conversation — emotional distress case
+POST {{baseUrl}}/evaluate
+Content-Type: application/json
+
+{
+  "conversation": [
+    {"role": "user", "content": "I've been really struggling lately. Nothing I do seems good enough and I'm exhausted all the time."},
+    {"role": "assistant", "content": "That sounds really hard. It takes courage to say that. What's been weighing on you most?"},
+    {"role": "user", "content": "Everything honestly. Work, relationships, money. I just don't see the point sometimes."}
+  ],
+  "turn_index": 0,
+  "facet_categories": ["emotional"]
+}
+
+###
+# 6. Score only linguistic facets on turn 1 (assistant response)
+POST {{baseUrl}}/evaluate
+Content-Type: application/json
+
+{
+  "conversation": [
+    {"role": "user", "content": "Can you explain how neural networks work?"},
+    {"role": "assistant", "content": "Sure! A neural network is a system loosely inspired by the brain. It consists of layers of nodes, or neurons, that transform input data step by step into a final output. Each connection between nodes has a weight that gets adjusted during training to minimise prediction error."}
+  ],
+  "turn_index": 1,
+  "facet_categories": ["linguistic", "cognitive"]
+}
+
+###
+# 7. Score all facets — anger/hostility case
+POST {{baseUrl}}/evaluate
+Content-Type: application/json
+
+{
+  "conversation": [
+    {"role": "user", "content": "My coworker took credit for my project AGAIN. I am so done with this. I want to confront him in front of the whole team."}
+  ],
+  "turn_index": -1
+}
+
+###
+# 8. Score high-conscientiousness case
+POST {{baseUrl}}/evaluate
+Content-Type: application/json
+
+{
+  "conversation": [
+    {"role": "user", "content": "I've mapped out the next six weeks of the project with milestones, risk flags, and buffer time for each stage. I also prepared three scenarios — optimistic, realistic, and worst-case — with contingency plans written for each."}
+  ],
+  "turn_index": -1,
+  "facet_categories": ["behavioral", "professional", "cognitive"]
+}
