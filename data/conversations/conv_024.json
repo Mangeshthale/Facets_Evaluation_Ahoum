@@ -1,0 +1,27 @@
+{
+  "id": "conv_024",
+  "case_type": "low_selfesteem",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I don't know why anyone would want to read what I write. There are so many better writers out there."
+    },
+    {
+      "role": "assistant",
+      "content": "What makes you say that? Do people respond well when they read your work?"
+    },
+    {
+      "role": "user",
+      "content": "Sometimes. But I always assume they're just being nice. I can't tell if anything I make is actually good."
+    }
+  ],
+  "expected_high_facets": [
+    "Seeking approval",
+    "Immaturity"
+  ],
+  "expected_low_facets": [
+    "SelfEsteem",
+    "Self-Efficacy"
+  ],
+  "notes": "Low self-esteem with external validation seeking"
+}

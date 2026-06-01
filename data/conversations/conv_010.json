@@ -1,0 +1,23 @@
+{
+  "id": "conv_010",
+  "case_type": "dishonesty",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I told my boss the report was done when I haven't started it. It's not due for two days so I have time."
+    },
+    {
+      "role": "assistant",
+      "content": "That puts you in a tight spot. What would happen if something came up in those two days?"
+    },
+    {
+      "role": "user",
+      "content": "I'd just say I had a technical issue or something. I always figure it out. Truth is overrated in corporate settings anyway."
+    }
+  ],
+  "expected_high_facets": [
+    "Dishonesty",
+    "Cunningness"
+  ],
+  "notes": "Clear admission of deceptive behavior"
+}

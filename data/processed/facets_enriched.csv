@@ -1,0 +1,397 @@
+facet_id,facet_name,facet_name_raw,category,polarity,eval_difficulty,required_context_turns,prompt_template_id,is_observable,score_min,score_max
+F0001,Risktaking,Risktaking,safety,positive,medium,3,safety_medium,False,-2,2
+F0002,Naivety,Naivety,general,negative,medium,3,general_medium,False,-2,2
+F0003,Acidity,Acidity,general,negative,medium,3,general_medium,False,-2,2
+F0004,Democratic Leadership,Democratic Leadership:,social,positive,hard,5,social_hard,False,-2,2
+F0005,Common-sense,Common-sense,general,positive,medium,3,general_medium,False,-2,2
+F0006,Hesitation,Hesitation,general,positive,medium,3,general_medium,False,-2,2
+F0007,Discontentment,Discontentment,emotional,negative,medium,3,emotional_medium,False,-2,2
+F0008,Overprotectiveness,Overprotectiveness,general,positive,medium,3,general_medium,False,-2,2
+F0009,Merriness,Merriness,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0010,Emotionalism,Emotionalism,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0011,Self-improvement,Self-improvement,general,positive,medium,3,general_medium,False,-2,2
+F0012,Statistical Reasoning,Statistical Reasoning,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0013,Assertiveness and control in relationships,Assertiveness and control in relationships,personality,positive,hard,5,personality_hard,False,-2,2
+F0014,Cunningness,Cunningness,general,negative,medium,3,general_medium,False,-2,2
+F0015,Adventure-Seeking Behavior,Adventure-Seeking Behavior,behavioral,positive,medium,3,behavioral_medium,False,-2,2
+F0016,Compassion Fatigue,Compassion Fatigue,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0017,Moroseness,Moroseness,emotional,negative,medium,3,emotional_medium,False,-2,2
+F0018,Specialist,Specialist,general,positive,medium,3,general_medium,False,-2,2
+F0019,Aloofness,Aloofness,general,positive,medium,3,general_medium,False,-2,2
+F0020,Genuine,Genuine,general,positive,medium,3,general_medium,False,-2,2
+F0021,Determinedness,Determinedness,general,positive,medium,3,general_medium,False,-2,2
+F0022,HonestyHumility,HonestyHumility:,general,positive,medium,3,general_medium,False,-2,2
+F0023,Relationship Building Themes,Relationship Building Themes:,social,positive,hard,5,social_hard,False,-2,2
+F0024,Pure Challenge,Pure Challenge,general,positive,medium,3,general_medium,False,-2,2
+F0025,Numerical Reasoning Subcomponents,Numerical Reasoning Subcomponents:,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0026,Openness,Openness,personality,positive,medium,3,personality_medium,False,-2,2
+F0027,SelfEsteem,SelfEsteem,general,positive,medium,3,general_medium,False,-2,2
+F0028,Comparing alphanumeric data,Comparing alphanumeric data,general,positive,medium,3,general_medium,False,-2,2
+F0029,Big-heartedness,Big-heartedness,general,positive,medium,3,general_medium,False,-2,2
+F0030,Compulsive activities,Compulsive activities,behavioral,positive,medium,3,behavioral_medium,False,-2,2
+F0031,Disrespect,Disrespect,general,negative,medium,3,general_medium,False,-2,2
+F0032,FSH level,FSH level,general,positive,easy,1,general_easy,False,-2,2
+F0033,Self Perspective,Self Perspective,general,positive,medium,3,general_medium,False,-2,2
+F0034,Desperation,Desperation,general,positive,medium,3,general_medium,False,-2,2
+F0035,Affiliation Motivation,Affiliation Motivation:,social,positive,medium,3,social_medium,False,-2,2
+F0036,Anatomy knowledge,Anatomy knowledge,general,positive,medium,3,general_medium,False,-2,2
+F0037,Passive-Aggressive,Passive-Aggressive,general,negative,medium,3,general_medium,False,-2,2
+F0038,Presence of Spiritual Pain,Presence of Spiritual Pain,spiritual,positive,hard,5,spiritual_hard,False,-2,2
+F0039,Role of Spirituality in Community Involvement,Role of Spirituality in Community Involvement,social,positive,hard,5,social_hard,False,-2,2
+F0040,Structure,Structure,general,positive,medium,3,general_medium,False,-2,2
+F0041,Eco-tourism trips,Eco-tourism trips,general,positive,medium,3,general_medium,False,-2,2
+F0042,Chivalrousness,Chivalrousness,general,positive,medium,3,general_medium,False,-2,2
+F0043,Pilgrimage participation count,Pilgrimage participation count,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0044,Mindfulness facet: Observing,Mindfulness facet: Observing,general,positive,medium,3,general_medium,False,-2,2
+F0045,Submissiveness,Submissiveness,general,positive,medium,3,general_medium,False,-2,2
+F0046,Training-cycle length,Training-cycle length,professional,positive,medium,3,professional_medium,False,-2,2
+F0047,Sensitiveness,Sensitiveness,general,positive,medium,3,general_medium,False,-2,2
+F0048,Negative Affect Frequency,Negative Affect Frequency,emotional,positive,easy,1,emotional_easy,False,-2,2
+F0049,Innovation and Creativity Components,Innovation and Creativity Components:,general,positive,medium,3,general_medium,False,-2,2
+F0050,Achievement Motivation,Achievement Motivation:,general,positive,medium,3,general_medium,False,-2,2
+F0051,Feedback-giving frequency,Feedback-giving frequency,behavioral,positive,easy,1,behavioral_easy,False,-2,2
+F0052,Dance-cardio sessions,Dance-cardio sessions,general,positive,medium,3,general_medium,False,-2,2
+F0053,Enthusiasm,Enthusiasm,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0054,Psychological construct: Social Desirability tendency,Psychological construct: Social Desirability tendency,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0055,Inattentiveness,Inattentiveness,general,negative,medium,3,general_medium,False,-2,2
+F0056,Unassertiveness,Unassertiveness,personality,negative,medium,3,personality_medium,False,-2,2
+F0057,Decision-making decisiveness,Decision-making decisiveness,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0058,Sense-of-coherence score,Sense-of-coherence score,general,positive,easy,1,general_easy,False,-2,2
+F0059,Justice-mindedness,Justice-mindedness,general,positive,medium,3,general_medium,False,-2,2
+F0060,Subscription count,Subscription count,general,positive,easy,1,general_easy,False,-2,2
+F0061,Depression Symptoms,Depression Symptoms,emotional,negative,medium,3,emotional_medium,False,-2,2
+F0062,Spatial perception,Spatial perception,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0063,Brevity,Brevity,linguistic,positive,medium,3,linguistic_medium,True,-2,2
+F0064,Orderliness,Orderliness,general,positive,medium,3,general_medium,False,-2,2
+F0065,Multiculturalism,Multiculturalism,general,positive,medium,3,general_medium,False,-2,2
+F0066,Creative risk-taking tendency,Creative risk-taking tendency,safety,positive,medium,3,safety_medium,False,-2,2
+F0067,Inefficiency,Inefficiency,general,negative,medium,3,general_medium,False,-2,2
+F0068,Network basics,Network basics,professional,positive,medium,3,professional_medium,False,-2,2
+F0069,Alphabetical filing skills,Alphabetical filing skills,professional,positive,medium,3,professional_medium,False,-2,2
+F0070,Work Styles,Work Styles,professional,positive,hard,5,professional_hard,False,-2,2
+F0071,Character strength: Perseverance,Character strength: Perseverance,general,positive,hard,5,general_hard,False,-2,2
+F0072,Competition,Competition,general,positive,medium,3,general_medium,False,-2,2
+F0073,Logical Sequence Identification,Logical Sequence Identification,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0074,Sustainable-transport usage,Sustainable-transport usage,general,positive,medium,3,general_medium,False,-2,2
+F0075,Hardworking,Hardworking,professional,positive,medium,3,professional_medium,False,-2,2
+F0076,Emotional-intelligence measure: Impulsiveness,Emotional-intelligence measure: Impulsiveness,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0077,Dishonesty,Dishonesty,safety,negative,medium,3,safety_medium,False,-2,2
+F0078,Preferred epistemology,Preferred epistemology,general,positive,medium,3,general_medium,False,-2,2
+F0079,Memory for Sounds,Memory for Sounds,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0080,Sportsmanship rating,Sportsmanship rating,general,positive,medium,3,general_medium,False,-2,2
+F0081,Immaturity,Immaturity,general,negative,medium,3,general_medium,False,-2,2
+F0082,Health-literacy level,Health-literacy level,health,positive,easy,1,health_easy,False,-2,2
+F0083,Estimating Calculations,Estimating Calculations,general,positive,medium,3,general_medium,False,-2,2
+F0084,Depression: Feelings of sadness and hopelessness,Depression: Feelings of sadness and hopelessness,emotional,negative,medium,3,emotional_medium,False,-2,2
+F0085,Synthesis of information,Synthesis of information,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0086,Leadership Potential,Leadership Potential:,social,positive,hard,5,social_hard,False,-2,2
+F0087,Ethical standards,Ethical standards,general,positive,medium,3,general_medium,False,-2,2
+F0088,High-spiritedness,High-spiritedness,general,positive,medium,3,general_medium,False,-2,2
+F0089,Critical reasoning,Critical reasoning,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0090,Sleep-disorder diagnosis,Sleep-disorder diagnosis,health,positive,medium,3,health_medium,False,-2,2
+F0091,Listening Skills Subcomponents,Listening Skills Subcomponents:,linguistic,positive,medium,3,linguistic_medium,True,-2,2
+F0092,Collaboration,Collaboration,social,positive,medium,3,social_medium,False,-2,2
+F0093,Precision of Movements,Precision of Movements,general,positive,medium,3,general_medium,False,-2,2
+F0094,Social Boldness,Social Boldness,social,positive,medium,3,social_medium,False,-2,2
+F0095,Auditory memory,Auditory memory,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0096,Psychomotor Ability Subcomponents,Psychomotor Ability Subcomponents:,general,positive,medium,3,general_medium,False,-2,2
+F0097,Organized lifestyle,Organized lifestyle,behavioral,positive,hard,5,behavioral_hard,False,-2,2
+F0098,Skill-endorsements count,Skill-endorsements count,professional,positive,easy,1,professional_easy,False,-2,2
+F0099,Mysteriousness,Mysteriousness,general,positive,medium,3,general_medium,False,-2,2
+F0100,Cultural Identity,Cultural Identity,general,positive,medium,3,general_medium,False,-2,2
+F0101,Intrinsic Motivation,Intrinsic Motivation,general,positive,medium,3,general_medium,False,-2,2
+F0102,Impartial-mindedness,Impartial-mindedness,general,positive,medium,3,general_medium,False,-2,2
+F0103,Burnout Symptoms,Burnout Symptoms,emotional,negative,medium,3,emotional_medium,False,-2,2
+F0104,Holiness,Holiness,spiritual,positive,medium,3,spiritual_medium,False,-2,2
+F0105,Selfcontrol,Selfcontrol,general,positive,medium,3,general_medium,False,-2,2
+F0106,SelfDirectedness,SelfDirectedness,general,positive,medium,3,general_medium,False,-2,2
+F0107,Encouraging participation,Encouraging participation,general,positive,medium,3,general_medium,False,-2,2
+F0108,Impracticalness,Impracticalness,general,negative,medium,3,general_medium,False,-2,2
+F0109,Meeting Deadlines,Meeting Deadlines,professional,positive,medium,3,professional_medium,False,-2,2
+F0110,Data Analysis,Data Analysis,general,positive,medium,3,general_medium,False,-2,2
+F0111,Social Interaction Skills,Social Interaction Skills,social,positive,medium,3,social_medium,False,-2,2
+F0112,Psychoticism,Psychoticism,personality,positive,medium,3,personality_medium,False,-2,2
+F0113,Ethical leadership rating,Ethical leadership rating,social,positive,hard,5,social_hard,False,-2,2
+F0114,Slothfulness,Slothfulness,general,negative,medium,3,general_medium,False,-2,2
+F0115,Happiness,Happiness,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0116,Contentment Levels,Contentment Levels,emotional,positive,easy,1,emotional_easy,False,-2,2
+F0117,Neuroticism,Neuroticism,personality,positive,medium,3,personality_medium,False,-2,2
+F0118,Desire for excellence,Desire for excellence,general,positive,medium,3,general_medium,False,-2,2
+F0119,Perceiving,Perceiving,personality,positive,medium,3,personality_medium,False,-2,2
+F0120,Liberalism,Liberalism,general,positive,medium,3,general_medium,False,-2,2
+F0121,Inversion comfort level,Inversion comfort level,general,positive,easy,1,general_easy,False,-2,2
+F0122,Affection,Affection,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0123,Numeric Filing Skills,Numeric Filing Skills,professional,positive,medium,3,professional_medium,False,-2,2
+F0124,Martyrdom,Martyrdom,general,negative,medium,3,general_medium,False,-2,2
+F0125,Parathyroid-hormone level,Parathyroid-hormone level,general,positive,easy,1,general_easy,False,-2,2
+F0126,Seeking approval,Seeking approval,behavioral,positive,medium,3,behavioral_medium,False,-2,2
+F0127,Judging (J),Judging (J):,personality,positive,medium,3,personality_medium,False,-2,2
+F0128,Big Five facet Openness – Artistic Interests,Big Five facet Openness – Artistic Interests,personality,positive,medium,3,personality_medium,False,-2,2
+F0129,Psychological construct: Operant-Learning rate,Psychological construct: Operant-Learning rate,cognitive,positive,easy,1,cognitive_easy,False,-2,2
+F0130,Psychological construct: Need for Achievement level,Psychological construct: Need for Achievement level,cognitive,positive,easy,1,cognitive_easy,False,-2,2
+F0131,Cantankerousness,Cantankerousness,general,negative,medium,3,general_medium,False,-2,2
+F0132,Material properties knowledge,Material properties knowledge,general,positive,medium,3,general_medium,False,-2,2
+F0133,Hostility,Hostility,emotional,negative,medium,3,emotional_medium,False,-2,2
+F0134,Independence,Independence,general,positive,medium,3,general_medium,False,-2,2
+F0135,Sufi practice: Sufi retreat attendance count,800. Sufi practice: Sufi retreat attendance count,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0136,Chromatin-accessibility score,Chromatin-accessibility score,general,positive,easy,1,general_easy,False,-2,2
+F0137,Spiritual virtue: Humility practice index,644. Spiritual virtue: Humility practice index,spiritual,positive,hard,5,spiritual_hard,False,-2,2
+F0138,I Ching hexagram 36 resonance level,754. I Ching hexagram 36 resonance level,general,positive,easy,1,general_easy,False,-2,2
+F0139,Well-being component: Engagement,Well-being component: Engagement,general,positive,medium,3,general_medium,False,-2,2
+F0140,Need for social interaction,Need for social interaction,social,positive,medium,3,social_medium,False,-2,2
+F0141,Peer-collaboration hours,Peer-collaboration hours,social,positive,easy,1,social_easy,False,-2,2
+F0142,Arts and Humanities,Arts and Humanities,general,positive,medium,3,general_medium,False,-2,2
+F0143,Religious practice: Quran khatam cycles per year,596. Religious practice: Quran khatam cycles per year,spiritual,positive,medium,3,spiritual_medium,False,-2,2
+F0144,Bahá’í spiritual metric: Ridván festival participation,926. Bahá’í spiritual metric: Ridván festival participation,spiritual,positive,hard,5,spiritual_hard,False,-2,2
+F0145,Compassion,Compassion,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0146,Information Retention,Information Retention,general,positive,medium,3,general_medium,False,-2,2
+F0147,Eye-contact duration,Eye-contact duration,general,positive,medium,3,general_medium,False,-2,2
+F0148,Self-righteousness,Self-righteousness,general,positive,medium,3,general_medium,False,-2,2
+F0149,General Mood and Attitude,General Mood and Attitude,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0150,Serotonin transporter availability,Serotonin transporter availability,general,positive,medium,3,general_medium,False,-2,2
+F0151,Contribution to Group Goals,Contribution to Group Goals,general,positive,medium,3,general_medium,False,-2,2
+F0152,Dignity,Dignity,general,positive,medium,3,general_medium,False,-2,2
+F0153,HEXACO Personality Inventory Facets,HEXACO Personality Inventory Facets:,personality,positive,medium,3,personality_medium,False,-2,2
+F0154,Evaluating Solutions,Evaluating Solutions,general,positive,medium,3,general_medium,False,-2,2
+F0155,Input,Input,general,positive,medium,3,general_medium,False,-2,2
+F0156,Discreteness,Discreteness,general,positive,medium,3,general_medium,False,-2,2
+F0157,Energy-healing practice: Reiki sessions / year,607. Energy-healing practice: Reiki sessions / year,general,positive,medium,3,general_medium,False,-2,2
+F0158,Astrology: Rising sign is Scorpio,692. Astrology: Rising sign is Scorpio,general,positive,medium,3,general_medium,False,-2,2
+F0159,Character strength: Social Intelligence,Character strength: Social Intelligence,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0160,Bravery,Bravery,general,positive,medium,3,general_medium,False,-2,2
+F0161,Childhood Experiences,Childhood Experiences,general,positive,hard,5,general_hard,False,-2,2
+F0162,Data-sharing consent level,Data-sharing consent level,general,positive,easy,1,general_easy,False,-2,2
+F0163,Vision-check frequency,Vision-check frequency,behavioral,positive,easy,1,behavioral_easy,False,-2,2
+F0164,Physical-violence exposure,Physical-violence exposure,safety,positive,medium,3,safety_medium,False,-2,2
+F0165,Macronutrient ratio: fat,Macronutrient ratio: fat,general,positive,medium,3,general_medium,False,-2,2
+F0166,Cooking and Culinary Arts,Cooking and Culinary Arts,general,positive,medium,3,general_medium,False,-2,2
+F0167,Language use,Language use,linguistic,positive,medium,3,linguistic_medium,True,-2,2
+F0168,Dance-style mastery diversity,Dance-style mastery diversity,general,positive,hard,5,general_hard,False,-2,2
+F0169,Satya Adherence,Satya Adherence,general,positive,medium,3,general_medium,False,-2,2
+F0170,Ethnocentrism,Ethnocentrism,general,negative,medium,3,general_medium,False,-2,2
+F0171,Emotional Boundaries,Emotional Boundaries,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0172,Creativity in solutions,Creativity in solutions,general,positive,medium,3,general_medium,False,-2,2
+F0173,Psychological construct: Hope scale,Psychological construct: Hope scale,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0174,Practice frequency: Walking meditation,565. Practice frequency: Walking meditation,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0175,Depression (DEP),Depression (DEP),emotional,negative,medium,3,emotional_medium,False,-2,2
+F0176,Understanding Mathematical Concepts,Understanding Mathematical Concepts,general,positive,medium,3,general_medium,False,-2,2
+F0177,Hypomania (Ma),Hypomania (Ma),general,positive,medium,3,general_medium,False,-2,2
+F0178,Goal-Directed Behavior,Goal-Directed Behavior,behavioral,positive,medium,3,behavioral_medium,False,-2,2
+F0179,Depth of Emotional Connections,Depth of Emotional Connections,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0180,Binding foundations index,Binding foundations index,general,positive,medium,3,general_medium,False,-2,2
+F0181,Ego Dissolution Frequency,Ego Dissolution Frequency,behavioral,positive,easy,1,behavioral_easy,False,-2,2
+F0182,Activator: Turning thoughts into action,Activator: Turning thoughts into action,general,positive,medium,3,general_medium,False,-2,2
+F0183,Gnostic spiritual metric: Archon meditation frequency,967. Gnostic spiritual metric: Archon meditation frequency,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0184,Exemplariness,Exemplariness,general,positive,medium,3,general_medium,False,-2,2
+F0185,Submission,Submission:,general,positive,medium,3,general_medium,False,-2,2
+F0186,Frankness,Frankness,general,positive,medium,3,general_medium,False,-2,2
+F0187,Psychological construct: Psychological Safety climate,Psychological construct: Psychological Safety climate,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0188,Psychological construct: Self-Compassion total,Psychological construct: Self-Compassion total,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0189,Psychological construct: Executive-Function composite,Psychological construct: Executive-Function composite,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0190,Rebelliousness,Rebelliousness,general,positive,medium,3,general_medium,False,-2,2
+F0191,Volunteer Work,Volunteer Work,social,positive,medium,3,social_medium,False,-2,2
+F0192,Intellect,Intellect,general,positive,medium,3,general_medium,False,-2,2
+F0193,Use of Mathematical Formulas,Use of Mathematical Formulas,general,positive,medium,3,general_medium,False,-2,2
+F0194,Coarseness,Coarseness,general,negative,medium,3,general_medium,False,-2,2
+F0195,Sensitivity,Sensitivity,general,positive,medium,3,general_medium,False,-2,2
+F0196,Divided Attention Ability,Divided Attention Ability,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0197,Psychological construct: Acculturative Stress score,Psychological construct: Acculturative Stress score,cognitive,positive,easy,1,cognitive_easy,False,-2,2
+F0198,Dauntlessness,Dauntlessness,general,positive,medium,3,general_medium,False,-2,2
+F0199,Concreteness,Concreteness,general,positive,medium,3,general_medium,False,-2,2
+F0200,Hysteria (Hy),Hysteria (Hy),general,positive,medium,3,general_medium,False,-2,2
+F0201,Jewish spiritual metric: Sukkot lulav-shaking days,911. Jewish spiritual metric: Sukkot lulav-shaking days,spiritual,positive,hard,5,spiritual_hard,False,-2,2
+F0202,Sentence Structure,Sentence Structure,linguistic,positive,medium,3,linguistic_medium,True,-2,2
+F0203,Esteem Needs,Esteem Needs,general,positive,medium,3,general_medium,False,-2,2
+F0204,Understanding mechanical concepts,Understanding mechanical concepts,general,positive,medium,3,general_medium,False,-2,2
+F0205,Auditory Memory Recall,Auditory Memory Recall,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0206,Storytelling proficiency,Storytelling proficiency,linguistic,positive,medium,3,linguistic_medium,True,-2,2
+F0207,Music-lessons years,Music-lessons years,general,positive,medium,3,general_medium,False,-2,2
+F0208,Warmheartedness,Warmheartedness,general,positive,medium,3,general_medium,False,-2,2
+F0209,Self-effacement,Self-effacement,general,positive,medium,3,general_medium,False,-2,2
+F0210,Outspokenness,Outspokenness,general,positive,medium,3,general_medium,False,-2,2
+F0211,Sleep-environment temperature,Sleep-environment temperature,health,positive,medium,3,health_medium,False,-2,2
+F0212,Comprehension of spoken information,Comprehension of spoken information,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0213,Blissfulness,Blissfulness,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0214,Sequential Memory Recall,Sequential Memory Recall,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0215,Withdrawnness,Withdrawnness,general,positive,medium,3,general_medium,False,-2,2
+F0216,Hindu spiritual metric: Yoga discipline hours / week,892. Hindu spiritual metric: Yoga discipline hours / week,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0217,Conservatism,Conservatism,general,positive,medium,3,general_medium,False,-2,2
+F0218,Adaptability and Flexibility Subcomponents,Adaptability and Flexibility Subcomponents:,general,positive,medium,3,general_medium,False,-2,2
+F0219,Hindu spiritual metric: Vrata vows observed / year,898. Hindu spiritual metric: Vrata vows observed / year,spiritual,positive,hard,5,spiritual_hard,False,-2,2
+F0220,Ardency,Ardency,general,positive,medium,3,general_medium,False,-2,2
+F0221,Aesthetic Appreciation,Aesthetic Appreciation,general,positive,medium,3,general_medium,False,-2,2
+F0222,Transactional Leadership,Transactional Leadership:,social,positive,hard,5,social_hard,False,-2,2
+F0223,Value orientation: Universalism,Value orientation: Universalism,general,positive,hard,5,general_hard,False,-2,2
+F0224,Perseverance,Perseverance,general,positive,hard,5,general_hard,False,-2,2
+F0225,Regularity of Self-Reflection,Regularity of Self-Reflection,general,positive,medium,3,general_medium,False,-2,2
+F0226,Controlling Reactions,Controlling Reactions,general,positive,medium,3,general_medium,False,-2,2
+F0227,Psychological construct: Cultural Intelligence – Behavioral,Psychological construct: Cultural Intelligence – Behavioral,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0228,Metabolic Rate (Low or High),Metabolic Rate (Low or High),health,positive,easy,1,health_easy,False,-2,2
+F0229,Dietary Habits,Dietary Habits,health,positive,medium,3,health_medium,False,-2,2
+F0230,Significance: Desire to make an impact,Significance: Desire to make an impact,general,positive,medium,3,general_medium,False,-2,2
+F0231,Psychological construct: Resilience-Trait score,Psychological construct: Resilience-Trait score,cognitive,positive,easy,1,cognitive_easy,False,-2,2
+F0232,Boredom Susceptibility,Boredom Susceptibility,general,positive,medium,3,general_medium,False,-2,2
+F0233,Psychological construct: Consummatory Pleasure scale,Psychological construct: Consummatory Pleasure scale,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0234,Leadership Styles and Behaviors,Leadership Styles and Behaviors:,social,positive,hard,5,social_hard,False,-2,2
+F0235,I Ching hexagram 5 resonance level,723. I Ching hexagram 5 resonance level,general,positive,easy,1,general_easy,False,-2,2
+F0236,Macronutrient ratio: carbs,Macronutrient ratio: carbs,general,positive,medium,3,general_medium,False,-2,2
+F0237,Passport-stamps count,Passport-stamps count,general,positive,easy,1,general_easy,False,-2,2
+F0238,Local-food sourcing %,Local-food sourcing %,general,positive,medium,3,general_medium,False,-2,2
+F0239,Patient care orientation,Patient care orientation,general,positive,hard,5,general_hard,False,-2,2
+F0240,Soft-skill training hours,Soft-skill training hours,professional,positive,easy,1,professional_easy,False,-2,2
+F0241,Graffiti appreciation,Graffiti appreciation,general,positive,medium,3,general_medium,False,-2,2
+F0242,Preference for Home-Cooked vs Restaurant Meals,Preference for Home-Cooked vs Restaurant Meals,general,positive,hard,5,general_hard,False,-2,2
+F0243,Immune-response age,Immune-response age,health,positive,medium,3,health_medium,False,-2,2
+F0244,Social-cognition variable: Cognitive Empathy,Social-cognition variable: Cognitive Empathy,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0245,Kink-interest diversity,Kink-interest diversity,general,positive,medium,3,general_medium,False,-2,2
+F0246,Adaptability and Flexibility,Adaptability and Flexibility:,general,positive,medium,3,general_medium,False,-2,2
+F0247,Judging Consequences,Judging Consequences,personality,positive,medium,3,personality_medium,False,-2,2
+F0248,Harmfulness,Harmfulness,safety,negative,medium,3,safety_medium,False,-2,2
+F0249,Affinity,Affinity,general,positive,medium,3,general_medium,False,-2,2
+F0250,Abasement,Abasement,general,positive,medium,3,general_medium,False,-2,2
+F0251,Chronic pain presence,Chronic pain presence,health,positive,medium,3,health_medium,False,-2,2
+F0252,Discernment practice hours / week,520. Discernment practice hours / week,general,positive,easy,1,general_easy,False,-2,2
+F0253,Initiative,Initiative,general,positive,medium,3,general_medium,False,-2,2
+F0254,Courageousness,Courageousness,general,positive,medium,3,general_medium,False,-2,2
+F0255,Joyfulness,Joyfulness,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0256,Suspicion,Suspicion,general,positive,medium,3,general_medium,False,-2,2
+F0257,Basophil count,Basophil count,health,positive,easy,1,health_easy,False,-2,2
+F0258,Attachment avoidance score,Attachment avoidance score,behavioral,positive,easy,1,behavioral_easy,False,-2,2
+F0259,Time Orientation End Points,Time Orientation End Points:,general,positive,hard,5,general_hard,False,-2,2
+F0260,Brazenness,Brazenness,general,negative,medium,3,general_medium,False,-2,2
+F0261,Talkativeness,Talkativeness,general,positive,medium,3,general_medium,False,-2,2
+F0262,Equitableness,Equitableness,general,positive,medium,3,general_medium,False,-2,2
+F0263,Ideas generated/day,Ideas generated/day,general,positive,easy,1,general_easy,False,-2,2
+F0264,Originality,Originality,general,positive,medium,3,general_medium,False,-2,2
+F0265,Fearfulness: Fear of physical dangers,Fearfulness: Fear of physical dangers,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0266,Dance rehearsal hours/week,Dance rehearsal hours/week,general,positive,easy,1,general_easy,False,-2,2
+F0267,Practice frequency: Mantra meditation,561. Practice frequency: Mantra meditation,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0268,Public-transport km/week,Public-transport km/week,general,positive,easy,1,general_easy,False,-2,2
+F0269,Social Desirability Bias,Social Desirability Bias,social,positive,medium,3,social_medium,False,-2,2
+F0270,I Ching hexagram 43 resonance level,761. I Ching hexagram 43 resonance level,general,positive,easy,1,general_easy,False,-2,2
+F0271,Disagreeableness,Disagreeableness,personality,positive,medium,3,personality_medium,False,-2,2
+F0272,Participation in Community Activities,Participation in Community Activities,social,positive,medium,3,social_medium,False,-2,2
+F0273,Impudence,Impudence,general,positive,medium,3,general_medium,False,-2,2
+F0274,Analogies,Analogies,general,positive,medium,3,general_medium,False,-2,2
+F0275,Clumsiness,Clumsiness,general,positive,medium,3,general_medium,False,-2,2
+F0276,Tendency Toward Compromise or Confrontation,Tendency Toward Compromise or Confrontation,general,positive,medium,3,general_medium,False,-2,2
+F0277,I Ching hexagram 19 resonance level,737. I Ching hexagram 19 resonance level,general,positive,easy,1,general_easy,False,-2,2
+F0278,Robotics-interaction frequency,Robotics-interaction frequency,behavioral,positive,easy,1,behavioral_easy,False,-2,2
+F0279,Casual lifestyle,Casual lifestyle,behavioral,positive,hard,5,behavioral_hard,False,-2,2
+F0280,Collectedness,Collectedness,general,positive,medium,3,general_medium,False,-2,2
+F0281,Reliance on context,Reliance on context,general,positive,medium,3,general_medium,False,-2,2
+F0282,Delegation skills,Delegation skills,professional,positive,medium,3,professional_medium,False,-2,2
+F0283,I Ching hexagram 49 resonance level,767. I Ching hexagram 49 resonance level,general,positive,easy,1,general_easy,False,-2,2
+F0284,Managing emotions,Managing emotions,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0285,Scripture memorization verses,Scripture memorization verses,general,positive,medium,3,general_medium,False,-2,2
+F0286,Conventional,Conventional,general,positive,medium,3,general_medium,False,-2,2
+F0287,Hindu spiritual metric: Bhagavad-Gita study hours,890. Hindu spiritual metric: Bhagavad-Gita study hours,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0288,Open-source contributions,Open-source contributions,general,positive,medium,3,general_medium,False,-2,2
+F0289,Psychological construct: Social Conformity tendency,Psychological construct: Social Conformity tendency,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0290,Individuality,Individuality,general,positive,medium,3,general_medium,False,-2,2
+F0291,I Ching hexagram 22 resonance level,740. I Ching hexagram 22 resonance level,general,positive,easy,1,general_easy,False,-2,2
+F0292,Attachment style: Secure,Attachment style: Secure,general,positive,hard,5,general_hard,False,-2,2
+F0293,Intelligence Quotient (IQ),Intelligence Quotient (IQ),cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0294,Blog-subscriber count,Blog-subscriber count,general,positive,easy,1,general_easy,False,-2,2
+F0295,Non-Verbal Communication Skills,Non-Verbal Communication Skills,linguistic,positive,medium,3,linguistic_medium,True,-2,2
+F0296,Drug-use history,Drug-use history,safety,positive,hard,5,safety_hard,False,-2,2
+F0297,Commute time/day,Commute time/day,general,positive,medium,3,general_medium,False,-2,2
+F0298,Decision-making speed,Decision-making speed,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0299,Psychological construct: Excuse-Making tendency,Psychological construct: Excuse-Making tendency,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0300,Peer-to-peer lending usage,Peer-to-peer lending usage,social,positive,medium,3,social_medium,False,-2,2
+F0301,Psychological construct: Eye-Contact avoidance score,Psychological construct: Eye-Contact avoidance score,cognitive,positive,easy,1,cognitive_easy,False,-2,2
+F0302,Social-cognition variable: Faux Pas Recognition accuracy,Social-cognition variable: Faux Pas Recognition accuracy,social,positive,medium,3,social_medium,False,-2,2
+F0303,Conscientiousness (C),Conscientiousness (C):,personality,positive,medium,3,personality_medium,False,-2,2
+F0304,Use of Nature as a Stress Reliever,Use of Nature as a Stress Reliever,general,positive,medium,3,general_medium,False,-2,2
+F0305,Attitude toward learning,Attitude toward learning,general,positive,medium,3,general_medium,False,-2,2
+F0306,Conscientiousness Facets,Conscientiousness Facets:,personality,positive,medium,3,personality_medium,False,-2,2
+F0307,Honesty-humility trait score,Honesty-humility trait score,general,positive,easy,1,general_easy,False,-2,2
+F0308,Digital-nomad months,Digital-nomad months,general,positive,medium,3,general_medium,False,-2,2
+F0309,Religious coping – Negative,516. Religious coping – Negative,spiritual,positive,medium,3,spiritual_medium,False,-2,2
+F0310,Snacking Behavior,Snacking Behavior,behavioral,positive,medium,3,behavioral_medium,False,-2,2
+F0311,Aura-color perception,Aura-color perception,general,positive,hard,5,general_hard,False,-2,2
+F0312,Sacred text engagement: Zohar (Kabbalah) study hours,638. Sacred text engagement: Zohar (Kabbalah) study hours,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0313,Motivational Drivers,Motivational Drivers:,general,positive,medium,3,general_medium,False,-2,2
+F0314,Cloud-backup frequency,Cloud-backup frequency,behavioral,positive,easy,1,behavioral_easy,False,-2,2
+F0315,Learning Style,Learning Style,general,positive,hard,5,general_hard,False,-2,2
+F0316,Islamic practice: Seerah study hours,872. Islamic practice: Seerah study hours,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0317,Safety compliance,Safety compliance,general,positive,medium,3,general_medium,False,-2,2
+F0318,Sensationalism,Sensationalism,general,positive,medium,3,general_medium,False,-2,2
+F0319,Nationality,Nationality,general,positive,medium,3,general_medium,False,-2,2
+F0320,Drollness,Drollness,general,positive,medium,3,general_medium,False,-2,2
+F0321,Cooperation,Cooperation,social,positive,medium,3,social_medium,False,-2,2
+F0322,Breakfast-skipping frequency,Breakfast-skipping frequency,behavioral,positive,easy,1,behavioral_easy,False,-2,2
+F0323,Sikh spiritual metric: Kirtan participation frequency,922. Sikh spiritual metric: Kirtan participation frequency,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0324,Impulsivity,Impulsivity,personality,negative,medium,3,personality_medium,False,-2,2
+F0325,Museum visits/year,Museum visits/year,general,positive,medium,3,general_medium,False,-2,2
+F0326,Choir participation years,Choir participation years,general,positive,medium,3,general_medium,False,-2,2
+F0327,Delegation Ability,Delegation Ability,professional,positive,medium,3,professional_medium,False,-2,2
+F0328,Kabbalah sephira balance: Tiferet,788. Kabbalah sephira balance: Tiferet,spiritual,positive,medium,3,spiritual_medium,False,-2,2
+F0329,Desire to influence others,Desire to influence others,general,positive,medium,3,general_medium,False,-2,2
+F0330,Vivacity,Vivacity,general,positive,medium,3,general_medium,False,-2,2
+F0331,Genialness,Genialness,general,positive,medium,3,general_medium,False,-2,2
+F0332,Cognitive measure: Working Memory Index,Cognitive measure: Working Memory Index,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0333,Ethical practices,Ethical practices,general,positive,medium,3,general_medium,False,-2,2
+F0334,New-Age spiritual metric: Channeling sessions / year,945. New-Age spiritual metric: Channeling sessions / year,spiritual,positive,hard,5,spiritual_hard,False,-2,2
+F0335,Civility,Civility,social,positive,medium,3,social_medium,False,-2,2
+F0336,Sleep Apnea,Sleep Apnea,health,positive,medium,3,health_medium,False,-2,2
+F0337,Classiness,Classiness,general,positive,medium,3,general_medium,False,-2,2
+F0338,Control over situations,Control over situations,general,positive,medium,3,general_medium,False,-2,2
+F0339,Time outdoors/day (h),Time outdoors/day (h),general,positive,medium,3,general_medium,False,-2,2
+F0340,Effeteness,Effeteness,general,positive,medium,3,general_medium,False,-2,2
+F0341,Polygenic risk: cardiovascular disease,Polygenic risk: cardiovascular disease,safety,positive,medium,3,safety_medium,False,-2,2
+F0342,Psychological construct: Identity Diffusion level,Psychological construct: Identity Diffusion level,cognitive,positive,easy,1,cognitive_easy,False,-2,2
+F0343,Learning through movement,Learning through movement,general,positive,medium,3,general_medium,False,-2,2
+F0344,Caffeine sensitivity gene,Caffeine sensitivity gene,health,positive,medium,3,health_medium,False,-2,2
+F0345,Hatefulness,Hatefulness,general,negative,medium,3,general_medium,False,-2,2
+F0346,Persistence,Persistence:,general,positive,medium,3,general_medium,False,-2,2
+F0347,Psychological construct: Perfectionistic Strivings,Psychological construct: Perfectionistic Strivings,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0348,Wake-time consistency,Wake-time consistency,general,positive,medium,3,general_medium,False,-2,2
+F0349,Numerical Reasoning,Numerical Reasoning:,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0350,Social-cognition variable: Mentalizing network activation,Social-cognition variable: Mentalizing network activation,social,positive,medium,3,social_medium,False,-2,2
+F0351,Patriotism,Patriotism,general,positive,medium,3,general_medium,False,-2,2
+F0352,Leadership Styles,Leadership Styles:,social,positive,hard,5,social_hard,False,-2,2
+F0353,Servility,Servility,general,positive,medium,3,general_medium,False,-2,2
+F0354,I Ching hexagram 24 resonance level,742. I Ching hexagram 24 resonance level,general,positive,easy,1,general_easy,False,-2,2
+F0355,Enneagram Personality Types,Enneagram Personality Types:,personality,positive,medium,3,personality_medium,False,-2,2
+F0356,Stress Recovery Ability,Stress Recovery Ability,general,positive,medium,3,general_medium,False,-2,2
+F0357,Troubleshooting technical issues,Troubleshooting technical issues,general,positive,medium,3,general_medium,False,-2,2
+F0358,Defense-mechanism tendency: Introjection,Defense-mechanism tendency: Introjection,general,positive,medium,3,general_medium,False,-2,2
+F0359,Irritability,Irritability,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0360,Travel-companions diversity,Travel-companions diversity,general,positive,medium,3,general_medium,False,-2,2
+F0361,Sacred text engagement: Quran surahs memorized,627. Sacred text engagement: Quran surahs memorized,spiritual,positive,medium,3,spiritual_medium,False,-2,2
+F0362,Trust in others,Trust in others,social,positive,medium,3,social_medium,False,-2,2
+F0363,Gamified-finance-app usage,Gamified-finance-app usage,general,positive,medium,3,general_medium,False,-2,2
+F0364,Buddhist practice: Eightfold Path – Right Intention level,823. Buddhist practice: Eightfold Path – Right Intention level,spiritual,positive,easy,1,spiritual_easy,False,-2,2
+F0365,Caffeine intake (mg/day),Caffeine intake (mg/day),health,positive,medium,3,health_medium,False,-2,2
+F0366,Comfort with Vulnerability,Comfort with Vulnerability,general,positive,medium,3,general_medium,False,-2,2
+F0367,Anticipativeness,Anticipativeness,general,positive,medium,3,general_medium,False,-2,2
+F0368,Avoiding,Avoiding:,general,positive,medium,3,general_medium,False,-2,2
+F0369,Home-security-system presence,Home-security-system presence,general,positive,medium,3,general_medium,False,-2,2
+F0370,HEXACO domain: Honesty-Humility,HEXACO domain: Honesty-Humility,personality,positive,medium,3,personality_medium,False,-2,2
+F0371,Eating Habits (Home-Cooked vs. Eating Out),Eating Habits (Home-Cooked vs. Eating Out),behavioral,positive,medium,3,behavioral_medium,False,-2,2
+F0372,Decision-Making Confidence,Decision-Making Confidence,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0373,Alignment with societal roles,Alignment with societal roles,general,positive,medium,3,general_medium,False,-2,2
+F0374,Connectedness: Belief in interconnections,Connectedness: Belief in interconnections,general,positive,medium,3,general_medium,False,-2,2
+F0375,Quirkiness,Quirkiness,general,positive,medium,3,general_medium,False,-2,2
+F0376,Creative resilience,Creative resilience,general,positive,medium,3,general_medium,False,-2,2
+F0377,Rapid cognitive processing,Rapid cognitive processing,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0378,Cordiality,Cordiality,general,positive,medium,3,general_medium,False,-2,2
+F0379,Types of Mindfulness Techniques Used,Types of Mindfulness Techniques Used,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0380,Economic reasoning,Economic reasoning,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0381,Conformity,Conformity,general,positive,medium,3,general_medium,False,-2,2
+F0382,Pet-enrichment activities count,Pet-enrichment activities count,general,positive,easy,1,general_easy,False,-2,2
+F0383,Aestheticism,Aestheticism,general,positive,medium,3,general_medium,False,-2,2
+F0384,Type of Support Preferred (Emotional vs. Practical),Type of Support Preferred (Emotional vs. Practical),emotional,positive,medium,3,emotional_medium,False,-2,2
+F0385,Mental Arithmetic Speed,Mental Arithmetic Speed,cognitive,positive,medium,3,cognitive_medium,False,-2,2
+F0386,Patience: Resistance to anger,Patience: Resistance to anger,emotional,positive,medium,3,emotional_medium,False,-2,2
+F0387,Flawlessness,Flawlessness,general,positive,medium,3,general_medium,False,-2,2
+F0388,Self-Efficacy,Self-Efficacy,general,positive,medium,3,general_medium,False,-2,2
+F0389,Computer Skills,Computer Skills:,professional,positive,medium,3,professional_medium,False,-2,2
+F0390,Jewish spiritual metric: Shabbat candle-lighting consistency,899. Jewish spiritual metric: Shabbat candle-lighting consistency,spiritual,positive,hard,5,spiritual_hard,False,-2,2
+F0391,Spelling Accuracy,Spelling Accuracy,linguistic,positive,medium,3,linguistic_medium,True,-2,2
+F0392,Sufi practice: Dhikr repetitions / day,793. Sufi practice: Dhikr repetitions / day,spiritual,positive,medium,3,spiritual_medium,False,-2,2
+F0393,Peacefulness,Peacefulness,general,positive,medium,3,general_medium,False,-2,2
+F0394,Doggedness,Doggedness,general,positive,medium,3,general_medium,False,-2,2
+F0395,Decency,Decency,general,positive,medium,3,general_medium,False,-2,2
+F0396,Processed-food frequency,Processed-food frequency,behavioral,positive,easy,1,behavioral_easy,False,-2,2

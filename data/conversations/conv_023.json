@@ -1,0 +1,25 @@
+{
+  "id": "conv_023",
+  "case_type": "high_gratitude",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I genuinely feel lucky every single day. I have my health, a job I care about, people who love me. I don't take any of it for granted."
+    },
+    {
+      "role": "assistant",
+      "content": "That kind of awareness is really meaningful. Did something happen that shifted your perspective?"
+    },
+    {
+      "role": "user",
+      "content": "A health scare three years ago. It was benign but it reset everything. I see each day completely differently now."
+    }
+  ],
+  "expected_high_facets": [
+    "Contentment Levels",
+    "Happiness",
+    "Genuine",
+    "Blissfulness"
+  ],
+  "notes": "Authentic gratitude following adversity"
+}

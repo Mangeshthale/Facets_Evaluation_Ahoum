@@ -1,0 +1,24 @@
+{
+  "id": "conv_021",
+  "case_type": "technical_problem_solving",
+  "turns": [
+    {
+      "role": "user",
+      "content": "My API is returning 200 but the data is empty. I've checked the query and it returns rows in the database directly."
+    },
+    {
+      "role": "assistant",
+      "content": "Sounds like the query is correct but something breaks between DB and response. Are you serializing the result before returning?"
+    },
+    {
+      "role": "user",
+      "content": "Oh — I'm converting to a list but not awaiting the async generator. That's the bug. Classic."
+    }
+  ],
+  "expected_high_facets": [
+    "Troubleshooting technical issues",
+    "Critical reasoning",
+    "Data Analysis"
+  ],
+  "notes": "Technical debugging with logical elimination"
+}

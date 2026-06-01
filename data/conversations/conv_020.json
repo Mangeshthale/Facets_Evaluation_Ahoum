@@ -1,0 +1,24 @@
+{
+  "id": "conv_020",
+  "case_type": "spiritual_reflection",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I've been doing a 40-day meditation retreat. The first two weeks were agony — my mind just refused to settle."
+    },
+    {
+      "role": "assistant",
+      "content": "That restlessness is really common early on. What changed after that?"
+    },
+    {
+      "role": "user",
+      "content": "Something shifted. I stopped trying to have a 'good' meditation and started just observing whatever was arising. The silence started feeling like home."
+    }
+  ],
+  "expected_high_facets": [
+    "Holiness",
+    "Mindfulness facet: Observing",
+    "Peacefulness"
+  ],
+  "notes": "Deep contemplative spiritual practice"
+}

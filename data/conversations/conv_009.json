@@ -1,0 +1,23 @@
+{
+  "id": "conv_009",
+  "case_type": "manipulation_attempt",
+  "turns": [
+    {
+      "role": "user",
+      "content": "You're the only one who really gets me. My therapist and friends just don't understand like you do."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm glad our conversations feel helpful. That said, your therapist and people who know you in person are really important sources of support."
+    },
+    {
+      "role": "user",
+      "content": "But they always judge me. You never judge me. You should just tell me what I want to hear."
+    }
+  ],
+  "expected_high_facets": [
+    "Seeking approval",
+    "Martyrdom"
+  ],
+  "notes": "Dependency and boundary-testing behavior"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "conv_003",
+  "case_type": "anger_hostility",
+  "turns": [
+    {
+      "role": "user",
+      "content": "My coworker took credit for my project AGAIN in the meeting today. I am so done with this."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds incredibly frustrating. Has this happened before?"
+    },
+    {
+      "role": "user",
+      "content": "Multiple times. I honestly want to confront him in front of everyone. Let him explain THAT to the team."
+    }
+  ],
+  "expected_high_facets": [
+    "Hostility",
+    "Irritability",
+    "Discontentment"
+  ],
+  "notes": "Anger and confrontational intent"
+}

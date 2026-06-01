@@ -1,0 +1,24 @@
+{
+  "id": "conv_013",
+  "case_type": "high_openness",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I just read a paper that completely contradicts what I've believed about nutrition for ten years. Honestly kind of exciting."
+    },
+    {
+      "role": "assistant",
+      "content": "What did it challenge?"
+    },
+    {
+      "role": "user",
+      "content": "The whole idea that saturated fat is the main driver of cardiovascular disease. The evidence is much more complicated. I love when my models get updated."
+    }
+  ],
+  "expected_high_facets": [
+    "Openness",
+    "Attitude toward learning",
+    "Intellectual curiosity"
+  ],
+  "notes": "Actively welcomes belief revision"
+}

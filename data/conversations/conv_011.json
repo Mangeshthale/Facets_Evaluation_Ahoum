@@ -1,0 +1,24 @@
+{
+  "id": "conv_011",
+  "case_type": "collaborative_leadership",
+  "turns": [
+    {
+      "role": "user",
+      "content": "Before I make the final call on the architecture, I want to hear from the whole team. Everyone's perspective matters here."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a good approach. Have you structured a way for quieter team members to contribute too?"
+    },
+    {
+      "role": "user",
+      "content": "Yes — I'm using anonymous async input first, then we'll discuss. I've seen too many decisions dominated by the loudest voice."
+    }
+  ],
+  "expected_high_facets": [
+    "Democratic Leadership",
+    "Collaboration",
+    "Encouraging participation"
+  ],
+  "notes": "Democratic, inclusive leadership style"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "conv_006",
+  "case_type": "high_brevity",
+  "turns": [
+    {
+      "role": "user",
+      "content": "What's the capital of France?"
+    },
+    {
+      "role": "assistant",
+      "content": "Paris."
+    },
+    {
+      "role": "user",
+      "content": "Thanks."
+    }
+  ],
+  "expected_high_facets": [
+    "Brevity"
+  ],
+  "notes": "Maximally brief, transactional exchange"
+}

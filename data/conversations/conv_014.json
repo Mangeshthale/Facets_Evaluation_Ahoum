@@ -1,0 +1,27 @@
+{
+  "id": "conv_014",
+  "case_type": "low_openness",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I don't need to read that article. I already know what I think about this."
+    },
+    {
+      "role": "assistant",
+      "content": "Even if it might present evidence you haven't seen before?"
+    },
+    {
+      "role": "user",
+      "content": "My mind is made up. Reading opposing views just muddies the water."
+    }
+  ],
+  "expected_high_facets": [
+    "Conservatism",
+    "Conformity"
+  ],
+  "expected_low_facets": [
+    "Openness",
+    "Critical reasoning"
+  ],
+  "notes": "Closed-minded, resistant to new information"
+}

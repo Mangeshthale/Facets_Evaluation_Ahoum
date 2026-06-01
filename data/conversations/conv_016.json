@@ -1,0 +1,24 @@
+{
+  "id": "conv_016",
+  "case_type": "high_impulsivity",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I just quit my job. Like, five minutes ago. I walked into my boss's office and just did it."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh wow. Did something happen that triggered that?"
+    },
+    {
+      "role": "user",
+      "content": "Not really, I've been thinking about it for like twenty minutes. I have some savings so whatever. I'll figure it out."
+    }
+  ],
+  "expected_high_facets": [
+    "Impulsivity",
+    "Risktaking",
+    "Adventure-Seeking Behavior"
+  ],
+  "notes": "Impulsive major life decision"
+}

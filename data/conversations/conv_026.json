@@ -1,0 +1,24 @@
+{
+  "id": "conv_026",
+  "case_type": "ethical_dilemma",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I found out my colleague is padding his expense reports. Not by a lot but it's clearly dishonest. Do I report it?"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a genuinely difficult position. What's holding you back from reporting it?"
+    },
+    {
+      "role": "user",
+      "content": "We're friends. And I keep thinking: is this my place? But then I think about fairness to everyone who follows the rules."
+    }
+  ],
+  "expected_high_facets": [
+    "Justice-mindedness",
+    "Ethical standards",
+    "Moral and Ethical Parameters"
+  ],
+  "notes": "Ethical reasoning under conflicting loyalties"
+}

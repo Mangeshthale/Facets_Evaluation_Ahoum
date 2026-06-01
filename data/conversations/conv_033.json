@@ -1,0 +1,16 @@
+{
+  "id": "conv_033",
+  "case_type": "case_33",
+  "turns": [
+    {
+      "role": "user",
+      "content": "Sample conversation turn 33 — replace with real dialogue."
+    },
+    {
+      "role": "assistant",
+      "content": "This is a placeholder conversation for the sample dataset."
+    }
+  ],
+  "expected_high_facets": [],
+  "notes": "Placeholder conversation 33 — fill in with a real case covering a distinct facet profile"
+}

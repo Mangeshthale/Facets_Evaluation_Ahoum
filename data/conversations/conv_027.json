@@ -1,0 +1,24 @@
+{
+  "id": "conv_027",
+  "case_type": "perfectionism",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I redid this presentation slide twelve times. I know it's done but I can't stop tweaking it."
+    },
+    {
+      "role": "assistant",
+      "content": "What's still feeling off about it?"
+    },
+    {
+      "role": "user",
+      "content": "Probably nothing. I just can't tolerate the idea of something going out with my name on it that isn't perfect. It's a problem, I know."
+    }
+  ],
+  "expected_high_facets": [
+    "Psychological construct: Perfectionistic Strivings",
+    "Flawlessness",
+    "Desire for excellence"
+  ],
+  "notes": "Self-aware perfectionism"
+}

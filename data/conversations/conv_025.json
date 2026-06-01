@@ -1,0 +1,25 @@
+{
+  "id": "conv_025",
+  "case_type": "perseverance",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I've failed my driving test five times. I'm going to take it a sixth time next month."
+    },
+    {
+      "role": "assistant",
+      "content": "Five attempts takes real determination. What do you think the main challenge is?"
+    },
+    {
+      "role": "user",
+      "content": "Parallel parking. But I've been practicing two hours every day for the past month. I'm going to pass this time. I don't quit things."
+    }
+  ],
+  "expected_high_facets": [
+    "Perseverance",
+    "Determinedness",
+    "Character strength: Perseverance",
+    "Doggedness"
+  ],
+  "notes": "Strong perseverance in the face of repeated failure"
+}

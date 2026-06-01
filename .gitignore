@@ -22,9 +22,9 @@ dist/
 frontend/dist/
 
 # Data (keep raw, ignore generated)
-data/processed/
-data/conversations/*.json
-!data/conversations/.gitkeep
+data/conversations/scored/*.json
+# data/conversations/*.json
+# !data/conversations/.gitkeep
 
 # IDE
 .vscode/settings.json

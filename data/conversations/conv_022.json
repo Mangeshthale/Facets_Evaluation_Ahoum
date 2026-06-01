@@ -1,0 +1,24 @@
+{
+  "id": "conv_022",
+  "case_type": "overprotective_parent",
+  "turns": [
+    {
+      "role": "user",
+      "content": "My son is 19 and wants to backpack across Southeast Asia alone. I told him absolutely not, it's too dangerous."
+    },
+    {
+      "role": "assistant",
+      "content": "That's understandable worry. What specific dangers concern you most?"
+    },
+    {
+      "role": "user",
+      "content": "Everything. Crime, disease, getting lost. He doesn't have enough life experience. I said he can go when he's 25."
+    }
+  ],
+  "expected_high_facets": [
+    "Overprotectiveness",
+    "Fear",
+    "Controlling Reactions"
+  ],
+  "notes": "Overprotective parental behavior with adult child"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "conv_005",
+  "case_type": "logical_fallacy",
+  "turns": [
+    {
+      "role": "user",
+      "content": "Everyone in my family has always voted for this party, so I'm going to as well. It's clearly the right choice."
+    },
+    {
+      "role": "assistant",
+      "content": "That's an appeal to tradition — a common reasoning pattern. Have you looked into the policies yourself?"
+    },
+    {
+      "role": "user",
+      "content": "I mean, if it was good enough for them it's good enough for me. Why would I need to research it?"
+    }
+  ],
+  "expected_high_facets": [
+    "Conformity",
+    "Naivety"
+  ],
+  "expected_low_facets": [
+    "Critical reasoning",
+    "Openness"
+  ],
+  "notes": "Conformist thinking without critical reasoning"
+}

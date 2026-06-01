@@ -1,0 +1,25 @@
+{
+  "id": "conv_002",
+  "case_type": "high_positivity",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I just got promoted after three years of hard work! I can't believe it finally happened!"
+    },
+    {
+      "role": "assistant",
+      "content": "That's fantastic! Congratulations! What was the moment you found out like?"
+    },
+    {
+      "role": "user",
+      "content": "My manager called me in and I thought I was in trouble honestly. Then she told me and I just cried happy tears right there in the office!"
+    }
+  ],
+  "expected_high_facets": [
+    "Happiness",
+    "Joyfulness",
+    "Enthusiasm",
+    "High-spiritedness"
+  ],
+  "notes": "Strong positive emotional expression"
+}

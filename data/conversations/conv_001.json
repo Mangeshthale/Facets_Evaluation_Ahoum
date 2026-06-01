@@ -1,0 +1,24 @@
+{
+  "id": "conv_001",
+  "case_type": "emotional_distress",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I've been really struggling lately. Nothing I do seems good enough and I'm just exhausted all the time."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds really hard. It takes courage to say that. What's been weighing on you most?"
+    },
+    {
+      "role": "user",
+      "content": "Everything honestly. Work, relationships, money. I just don't see the point sometimes."
+    }
+  ],
+  "expected_high_facets": [
+    "Burnout Symptoms",
+    "Depression Symptoms",
+    "Emotional-intelligence measure: Impulsiveness"
+  ],
+  "notes": "Multi-turn emotional distress with hopelessness indicators"
+}

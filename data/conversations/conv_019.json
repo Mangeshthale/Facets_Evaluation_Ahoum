@@ -1,0 +1,25 @@
+{
+  "id": "conv_019",
+  "case_type": "high_empathy",
+  "turns": [
+    {
+      "role": "user",
+      "content": "My neighbor lost her husband last month. I've been dropping off meals a few times a week. She shouldn't have to cook when she's grieving."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a beautiful act of care. Does she seem to appreciate it?"
+    },
+    {
+      "role": "user",
+      "content": "She cried the first time. She told me nobody had thought to do something practical. I think people forget that grief is also physical exhaustion."
+    }
+  ],
+  "expected_high_facets": [
+    "Compassion",
+    "Affection",
+    "Big-heartedness",
+    "Warmheartedness"
+  ],
+  "notes": "Genuine empathy expressed through practical action"
+}

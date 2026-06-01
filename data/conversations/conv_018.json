@@ -1,0 +1,24 @@
+{
+  "id": "conv_018",
+  "case_type": "assertive_boundary",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I told my friend clearly: I'm not available on weekends for work calls. That's my boundary and I need him to respect it."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a clear boundary. How did he respond?"
+    },
+    {
+      "role": "user",
+      "content": "He pushed back, said it was urgent. I said I understood but the answer is still no. Urgent doesn't override my boundaries."
+    }
+  ],
+  "expected_high_facets": [
+    "Assertiveness and control in relationships",
+    "Selfcontrol",
+    "Independence"
+  ],
+  "notes": "Clear, maintained boundary-setting"
+}

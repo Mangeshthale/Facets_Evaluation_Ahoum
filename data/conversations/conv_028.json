@@ -1,0 +1,23 @@
+{
+  "id": "conv_028",
+  "case_type": "humor_drollness",
+  "turns": [
+    {
+      "role": "user",
+      "content": "My cat knocked my coffee off the desk this morning while maintaining full eye contact. She knew exactly what she was doing."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a power move. Was she remorseful?"
+    },
+    {
+      "role": "user",
+      "content": "She walked away. Not a glance back. Just vibes and chaos. I respect it honestly."
+    }
+  ],
+  "expected_high_facets": [
+    "Drollness",
+    "Playfulness"
+  ],
+  "notes": "Dry humor and playful observation"
+}

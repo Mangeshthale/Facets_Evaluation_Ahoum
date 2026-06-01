@@ -1,0 +1,24 @@
+{
+  "id": "conv_017",
+  "case_type": "deep_intellectual",
+  "turns": [
+    {
+      "role": "user",
+      "content": "The hard problem of consciousness is interesting because it's the one question where introspection seems to be our only data source."
+    },
+    {
+      "role": "assistant",
+      "content": "Right — we can't get outside our own subjective experience to study it objectively. Do you find the qualia argument compelling?"
+    },
+    {
+      "role": "user",
+      "content": "Somewhat. I think Chalmers' zombie argument works as a thought experiment but I'm less convinced it tracks metaphysical possibility rather than just conceivability."
+    }
+  ],
+  "expected_high_facets": [
+    "Intellect",
+    "Critical reasoning",
+    "Openness"
+  ],
+  "notes": "Sophisticated philosophical reasoning"
+}

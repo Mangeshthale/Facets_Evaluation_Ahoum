@@ -1,0 +1,24 @@
+{
+  "id": "conv_004",
+  "case_type": "analytical_reasoning",
+  "turns": [
+    {
+      "role": "user",
+      "content": "If the company's revenue grew 12% YoY but costs grew 18%, what does that imply about margins?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good question. If costs outpace revenue growth, margins are being squeezed — profitability is declining even as the top line grows."
+    },
+    {
+      "role": "user",
+      "content": "Right, so if margins were 20% last year and revenue was $100M, what would net income be this year roughly?"
+    }
+  ],
+  "expected_high_facets": [
+    "Statistical Reasoning",
+    "Numerical Reasoning",
+    "Critical reasoning"
+  ],
+  "notes": "Strong analytical and numerical reasoning"
+}

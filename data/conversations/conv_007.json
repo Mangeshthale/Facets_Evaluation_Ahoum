@@ -1,0 +1,24 @@
+{
+  "id": "conv_007",
+  "case_type": "storytelling",
+  "turns": [
+    {
+      "role": "user",
+      "content": "Let me tell you about the time I got completely lost in the Tokyo subway system. So it was 11pm, I'd been awake for 26 hours, and my phone was at 3%..."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh no — this is already stressful. What happened next?"
+    },
+    {
+      "role": "user",
+      "content": "So I picked the platform that had the most people on it, reasoning that the busy line probably went somewhere central. Turns out it went to Narita Airport, 90 minutes away. At midnight."
+    }
+  ],
+  "expected_high_facets": [
+    "Storytelling proficiency",
+    "Common-sense",
+    "Adventure-Seeking Behavior"
+  ],
+  "notes": "Engaging narrative structure with vivid detail"
+}

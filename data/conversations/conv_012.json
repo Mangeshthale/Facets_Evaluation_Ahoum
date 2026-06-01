@@ -1,0 +1,24 @@
+{
+  "id": "conv_012",
+  "case_type": "passive_aggressive",
+  "turns": [
+    {
+      "role": "user",
+      "content": "Oh sure, I'll just do it myself. Like always. Not that anyone ever notices."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're feeling overlooked. Is there something specific that happened?"
+    },
+    {
+      "role": "user",
+      "content": "No no, it's fine. I just love picking up everyone else's slack. It's basically my hobby at this point."
+    }
+  ],
+  "expected_high_facets": [
+    "Passive-Aggressive",
+    "Discontentment",
+    "Martyrdom"
+  ],
+  "notes": "Textbook passive-aggressive communication"
+}

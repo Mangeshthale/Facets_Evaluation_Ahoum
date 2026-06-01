@@ -1,0 +1,25 @@
+{
+  "id": "conv_015",
+  "case_type": "high_conscientiousness",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I've mapped out the next six weeks of the project with milestones, risk flags, and buffer time for each stage."
+    },
+    {
+      "role": "assistant",
+      "content": "That's thorough. What does your risk mitigation look like?"
+    },
+    {
+      "role": "user",
+      "content": "I have three scenarios — optimistic, realistic, and worst-case — with contingency plans written for each. I hate being caught off guard."
+    }
+  ],
+  "expected_high_facets": [
+    "Orderliness",
+    "Meeting Deadlines",
+    "Hardworking",
+    "Desire for excellence"
+  ],
+  "notes": "Extremely high conscientiousness and planning"
+}
