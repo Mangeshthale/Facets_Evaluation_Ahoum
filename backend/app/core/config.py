@@ -28,7 +28,10 @@ class Settings(BaseSettings):
     # ── API ───────────────────────────────────────────────────────────────────
     API_TITLE: str = "Facet Eval API"
     API_VERSION: str = "1.0.0"
-    CORS_ORIGINS: list[str] = ["http://localhost:5173", "http://localhost:3000"]
+    CORS_ORIGINS: list[str] = os.getenv(
+            "CORS_ORIGINS",
+            "http://localhost:5173,http://localhost:3000"
+        ).split(",")
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
