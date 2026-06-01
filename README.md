@@ -8,8 +8,8 @@ A production-ready benchmark system that scores every conversation turn across *
 
 | | URL |
 |---|---|
-| **UI** | https://your-frontend.vercel.app |
-| **API Docs** | https://your-backend.up.railway.app/docs |
+| **UI** | https://facets-evaluation-ahoum.vercel.app/ |
+| **API Docs** | https://facetbackend-production.up.railway.app/docs |
 
 ---
 
