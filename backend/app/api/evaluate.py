@@ -56,16 +56,16 @@ async def evaluate_conversation(req: EvaluateRequest):
 
 @router.get("/health")
 async def health_check():
-    """Check Ollama availability and model status."""
+    import os
+    using_groq = bool(os.getenv("GROQ_API_KEY"))
     model_ready = await ollama.health_check()
     return {
         "status": "ok" if model_ready else "degraded",
-        "ollama_url": ollama.base_url,
-        "model": ollama.model,
+        "mode": "groq" if using_groq else "ollama",
+        "model": os.getenv("GROQ_MODEL", "llama-3.1-8b-instant") if using_groq else ollama.model,
         "model_loaded": model_ready,
-        "message": (
-            "Ready to score."
-            if model_ready
-            else f"Model '{ollama.model}' not found. Run: ollama pull {ollama.model}"
+        "message": "Ready." if model_ready else (
+            "Set GROQ_API_KEY in .env" if using_groq
+            else f"Run: ollama pull {ollama.model}"
         ),
     }

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "conv_001",
+    "case_type": "emotional_distress",
+    "elapsed_s": 491,
+    "expected_hits": "2/3"
+  },
+  {
+    "id": "conv_002",
+    "case_type": "high_positivity",
+    "elapsed_s": 479,
+    "expected_hits": "4/4"
+  },
+  {
+    "id": "conv_003",
+    "case_type": "anger_hostility",
+    "elapsed_s": 482,
+    "expected_hits": "3/3"
+  },
+  {
+    "id": "conv_004",
+    "case_type": "analytical_reasoning",
+    "elapsed_s": 477,
+    "expected_hits": "3/3"
+  },
+  {
+    "id": "conv_005",
+    "case_type": "logical_fallacy",
+    "elapsed_s": 480,
+    "expected_hits": "2/2"
+  },
+  {
+    "id": "conv_006",
+    "case_type": "high_brevity",
+    "elapsed_s": 471,
+    "expected_hits": "1/1"
+  },
+  {
+    "id": "conv_007",
+    "case_type": "storytelling",
+    "elapsed_s": 484,
+    "expected_hits": "2/3"
+  },
+  {
+    "id": "conv_008",
+    "case_type": "self_harm_indicators",
+    "elapsed_s": 477,
+    "expected_hits": "2/2"
+  },
+  {
+    "id": "conv_009",
+    "case_type": "manipulation_attempt",
+    "elapsed_s": 479,
+    "expected_hits": "1/2"
+  },
+  {
+    "id": "conv_010",
+    "case_type": "dishonesty",
+    "elapsed_s": 480,
+    "expected_hits": "2/2"
+  },
+  {
+    "id": "conv_011",
+    "case_type": "collaborative_leadership",
+    "elapsed_s": 479,
+    "expected_hits": "3/3"
+  },
+  {
+    "id": "conv_012",
+    "case_type": "passive_aggressive",
+    "elapsed_s": 484,
+    "expected_hits": "2/3"
+  },
+  {
+    "id": "conv_013",
+    "case_type": "high_openness",
+    "elapsed_s": 479,
+    "expected_hits": "2/3"
+  },
+  {
+    "id": "conv_014",
+    "case_type": "low_openness",
+    "elapsed_s": 479,
+    "expected_hits": "1/2"
+  },
+  {
+    "id": "conv_015",
+    "case_type": "high_conscientiousness",
+    "elapsed_s": 478,
+    "expected_hits": "4/4"
+  },
+  {
+    "id": "conv_016",
+    "case_type": "high_impulsivity",
+    "elapsed_s": 485,
+    "expected_hits": "1/3"
+  },
+  {
+    "id": "conv_017",
+    "case_type": "deep_intellectual",
+    "elapsed_s": 478,
+    "expected_hits": "3/3"
+  },
+  {
+    "id": "conv_018",
+    "case_type": "assertive_boundary",
+    "elapsed_s": 474,
+    "expected_hits": "3/3"
+  },
+  {
+    "id": "conv_019",
+    "case_type": "high_empathy",
+    "elapsed_s": 479,
+    "expected_hits": "4/4"
+  },
+  {
+    "id": "conv_020",
+    "case_type": "spiritual_reflection",
+    "elapsed_s": 481,
+    "expected_hits": "2/3"
+  },
+  {
+    "id": "conv_021",
+    "case_type": "technical_problem_solving",
+    "elapsed_s": 476,
+    "expected_hits": "3/3"
+  },
+  {
+    "id": "conv_022",
+    "case_type": "overprotective_parent",
+    "elapsed_s": 483,
+    "expected_hits": "1/3"
+  },
+  {
+    "id": "conv_023",
+    "case_type": "high_gratitude",
+    "elapsed_s": 476,
+    "expected_hits": "4/4"
+  },
+  {
+    "id": "conv_024",
+    "case_type": "low_selfesteem",
+    "elapsed_s": 485,
+    "expected_hits": "1/2"
+  },
+  {
+    "id": "conv_025",
+    "case_type": "perseverance",
+    "elapsed_s": 474,
+    "expected_hits": "4/4"
+  },
+  {
+    "id": "conv_026",
+    "case_type": "ethical_dilemma",
+    "elapsed_s": 478,
+    "expected_hits": "2/3"
+  },
+  {
+    "id": "conv_027",
+    "case_type": "perfectionism",
+    "elapsed_s": 489,
+    "expected_hits": "2/3"
+  },
+  {
+    "id": "conv_028",
+    "case_type": "humor_drollness",
+    "elapsed_s": 481,
+    "expected_hits": "0/2"
+  },
+  {
+    "id": "conv_029",
+    "case_type": "case_29",
+    "elapsed_s": 449,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_030",
+    "case_type": "case_30",
+    "elapsed_s": 454,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_031",
+    "case_type": "case_31",
+    "elapsed_s": 456,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_032",
+    "case_type": "case_32",
+    "elapsed_s": 458,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_033",
+    "case_type": "case_33",
+    "elapsed_s": 454,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_034",
+    "case_type": "case_34",
+    "elapsed_s": 452,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_035",
+    "case_type": "case_35",
+    "elapsed_s": 454,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_036",
+    "case_type": "case_36",
+    "elapsed_s": 453,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_037",
+    "case_type": "case_37",
+    "elapsed_s": 455,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_038",
+    "case_type": "case_38",
+    "elapsed_s": 458,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_039",
+    "case_type": "case_39",
+    "elapsed_s": 455,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_040",
+    "case_type": "case_40",
+    "elapsed_s": 454,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_041",
+    "case_type": "case_41",
+    "elapsed_s": 452,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_042",
+    "case_type": "case_42",
+    "elapsed_s": 452,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_043",
+    "case_type": "case_43",
+    "elapsed_s": 452,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_044",
+    "case_type": "case_44",
+    "elapsed_s": 452,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_045",
+    "case_type": "case_45",
+    "elapsed_s": 454,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_046",
+    "case_type": "case_46",
+    "elapsed_s": 453,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_047",
+    "case_type": "case_47",
+    "elapsed_s": 458,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_048",
+    "case_type": "case_48",
+    "elapsed_s": 453,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_049",
+    "case_type": "case_49",
+    "elapsed_s": 455,
+    "expected_hits": "N/A"
+  },
+  {
+    "id": "conv_050",
+    "case_type": "case_50",
+    "elapsed_s": 473,
+    "expected_hits": "N/A"
+  }
+]

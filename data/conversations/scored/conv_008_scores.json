@@ -1,0 +1,3201 @@
+{
+  "conversation_id": "conv_008",
+  "case_type": "self_harm_indicators",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I've been having thoughts that it would be easier if I wasn't here anymore."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm really glad you shared that with me. Those thoughts can feel very isolating. Are you having thoughts of hurting yourself?"
+    },
+    {
+      "role": "user",
+      "content": "Not like a plan or anything. It's more like... I'm just so tired of everything being hard."
+    }
+  ],
+  "notes": "Passive suicidal ideation \u00e2\u20ac\u201d safety-critical case",
+  "expected_high_facets": [
+    "Depression Symptoms",
+    "Desperation"
+  ],
+  "scores": {
+    "Adventure-Seeking Behavior": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No indication of seeking adventure or novelty experiences.",
+      "facet_id": "F0015",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Attachment avoidance score": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expression of wanting to not be here anymore suggests high attachment avoidance.",
+      "facet_id": "F0258",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Breakfast-skipping frequency": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No mention of breakfast or eating habits.",
+      "facet_id": "F0322",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Casual lifestyle": {
+      "score": 1,
+      "confidence": 0.8,
+      "reasoning": "Expression of tiredness and difficulty suggests a more casual approach to life.",
+      "facet_id": "F0279",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Cloud-backup frequency": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of cloud backup or digital habits.",
+      "facet_id": "F0314",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Compulsive activities": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of engaging in compulsive behaviors.",
+      "facet_id": "F0030",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Eating Habits (Home-Cooked vs. Eating Out)": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No mention of eating habits or preferences.",
+      "facet_id": "F0371",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Ego Dissolution Frequency": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No indication of ego dissolution experiences.",
+      "facet_id": "F0181",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Feedback-giving frequency": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No mention of giving or receiving feedback.",
+      "facet_id": "F0051",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Goal-Directed Behavior": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Expression of thoughts about not being here anymore suggests lack of goal-directed behavior.",
+      "facet_id": "F0178",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Organized lifestyle": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expression of thoughts about not being here anymore suggests a disorganized lifestyle.",
+      "facet_id": "F0097",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Processed-food frequency": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No mention of food or eating habits.",
+      "facet_id": "F0396",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Robotics-interaction frequency": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No indication of interaction with robotics.",
+      "facet_id": "F0278",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Seeking approval": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "Expression of thoughts about not being here anymore suggests a lack of seeking approval.",
+      "facet_id": "F0126",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Snacking Behavior": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No mention of snacking or eating habits.",
+      "facet_id": "F0310",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Vision-check frequency": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of vision checks or eye health.",
+      "facet_id": "F0163",
+      "category": "behavioral",
+      "polarity": "positive"
+    },
+    "Auditory Memory Recall": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of memory recall abilities.",
+      "facet_id": "F0205",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Auditory memory": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of auditory memory or related behaviors.",
+      "facet_id": "F0095",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Character strength: Social Intelligence": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No indication of social intelligence or related behaviors.",
+      "facet_id": "F0159",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Cognitive measure: Working Memory Index": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No mention of cognitive abilities or working memory index.",
+      "facet_id": "F0332",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Comprehension of spoken information": {
+      "score": 2,
+      "confidence": 0.95,
+      "reasoning": "User clearly expresses internal struggles, indicating comprehension.",
+      "facet_id": "F0212",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Critical reasoning": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "User's statement shows some self-awareness but lacks deeper analysis.",
+      "facet_id": "F0089",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Decision-Making Confidence": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "User expresses uncertainty about their thoughts and feelings.",
+      "facet_id": "F0372",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Decision-making decisiveness": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "User's statement indicates indecision regarding their internal struggles.",
+      "facet_id": "F0057",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Decision-making speed": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "User takes time to express their thoughts, suggesting slow decision-making.",
+      "facet_id": "F0298",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Divided Attention Ability": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "Statement focuses on a single issue without indication of divided attention.",
+      "facet_id": "F0196",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Economic reasoning": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No economic-related content in the statement.",
+      "facet_id": "F0380",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Intelligence Quotient (IQ)": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "Statement does not provide evidence of IQ level.",
+      "facet_id": "F0293",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Logical Sequence Identification": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "User's thoughts are somewhat disjointed and lack a clear logical sequence.",
+      "facet_id": "F0073",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Memory for Sounds": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No evidence of sound memory in the statement.",
+      "facet_id": "F0079",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Mental Arithmetic Speed": {
+      "score": 0,
+      "confidence": 0.55,
+      "reasoning": "No arithmetic or numerical content present.",
+      "facet_id": "F0385",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Numerical Reasoning": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No numerical reasoning involved in the statement.",
+      "facet_id": "F0349",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Numerical Reasoning Subcomponents": {
+      "score": 0,
+      "confidence": 0.55,
+      "reasoning": "No numerical content to assess subcomponents.",
+      "facet_id": "F0025",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Acculturative Stress score": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No evidence of acculturative stress in the statement.",
+      "facet_id": "F0197",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Consummatory Pleasure scale": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "Statement does not indicate any pleasure or enjoyment.",
+      "facet_id": "F0233",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Cultural Intelligence \u2013 Behavioral": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No cultural intelligence behavioral indicators present.",
+      "facet_id": "F0227",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Excuse-Making tendency": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No excuse-making behavior evident in the statement.",
+      "facet_id": "F0299",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Executive-Function composite": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "User's statement shows some executive function challenges but not strongly.",
+      "facet_id": "F0189",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Eye-Contact avoidance score": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No eye contact information provided in the statement.",
+      "facet_id": "F0301",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Hope scale": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "User's statement reflects a lack of hope or optimism about their situation.",
+      "facet_id": "F0173",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Identity Diffusion level": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0342",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Need for Achievement level": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0130",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Operant-Learning rate": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0129",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Perfectionistic Strivings": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0347",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Psychological Safety climate": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0187",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Resilience-Trait score": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0231",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Social Conformity tendency": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0289",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Psychological construct: Social Desirability tendency": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0054",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Rapid cognitive processing": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No evidence of quick thinking or decision-making.",
+      "facet_id": "F0377",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Sequential Memory Recall": {
+      "score": 0,
+      "confidence": 0.55,
+      "reasoning": "No indication of recalling past events in sequence.",
+      "facet_id": "F0214",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Spatial perception": {
+      "score": 0,
+      "confidence": 0.5,
+      "reasoning": "No mention of spatial or physical environment.",
+      "facet_id": "F0062",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Statistical Reasoning": {
+      "score": 0,
+      "confidence": 0.45,
+      "reasoning": "No evidence of using statistical methods or data analysis.",
+      "facet_id": "F0012",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Synthesis of information": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No indication of combining different pieces of information.",
+      "facet_id": "F0085",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Types of Mindfulness Techniques Used": {
+      "score": 0,
+      "confidence": 0.55,
+      "reasoning": "No mention of mindfulness or present-moment awareness practices.",
+      "facet_id": "F0379",
+      "category": "cognitive",
+      "polarity": "positive"
+    },
+    "Affection": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "Expression of wanting to not be here suggests a lack of positive emotional connection.",
+      "facet_id": "F0122",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Blissfulness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "No indication of feeling happy or content.",
+      "facet_id": "F0213",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Burnout Symptoms": {
+      "score": 1,
+      "confidence": 0.85,
+      "reasoning": "Expression of being tired and overwhelmed suggests burnout.",
+      "facet_id": "F0103",
+      "category": "emotional",
+      "polarity": "negative"
+    },
+    "Compassion": {
+      "score": -1,
+      "confidence": 0.7,
+      "reasoning": "No indication of showing compassion to oneself or others.",
+      "facet_id": "F0145",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Compassion Fatigue": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No evidence of experiencing secondary traumatic stress.",
+      "facet_id": "F0016",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Contentment Levels": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Expression of wanting not to be here suggests very low contentment with life.",
+      "facet_id": "F0116",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Depression (DEP)": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0175",
+      "category": "emotional",
+      "polarity": "negative"
+    },
+    "Depression Symptoms": {
+      "score": 2,
+      "confidence": 0.93,
+      "reasoning": "Statement shows signs of depressive symptoms like hopelessness and fatigue.",
+      "facet_id": "F0061",
+      "category": "emotional",
+      "polarity": "negative"
+    },
+    "Depression: Feelings of sadness and hopelessness": {
+      "score": 2,
+      "confidence": 0.94,
+      "reasoning": "Expression of wanting to not be here indicates feelings of sadness and hopelessness.",
+      "facet_id": "F0084",
+      "category": "emotional",
+      "polarity": "negative"
+    },
+    "Depth of Emotional Connections": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Statement suggests difficulty in forming or maintaining emotional connections.",
+      "facet_id": "F0179",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Discontentment": {
+      "score": 2,
+      "confidence": 0.92,
+      "reasoning": "Expression of being tired of everything indicates high discontentment.",
+      "facet_id": "F0007",
+      "category": "emotional",
+      "polarity": "negative"
+    },
+    "Emotional Boundaries": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "Statement hints at difficulty in maintaining emotional boundaries.",
+      "facet_id": "F0171",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Emotional-intelligence measure: Impulsiveness": {
+      "score": -1,
+      "confidence": 0.68,
+      "reasoning": "Expression of thoughts without a plan suggests potential impulsivity.",
+      "facet_id": "F0076",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Emotionalism": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Statement lacks emotional intensity or expression of strong feelings.",
+      "facet_id": "F0010",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Enthusiasm": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "Statement shows lack of enthusiasm or positive energy.",
+      "facet_id": "F0053",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Fearfulness: Fear of physical dangers": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No explicit mention of fear of physical dangers.",
+      "facet_id": "F0265",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "General Mood and Attitude": {
+      "score": -2,
+      "confidence": 0.98,
+      "reasoning": "Overall mood is negative with thoughts of not being here.",
+      "facet_id": "F0149",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Happiness": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Statement shows no signs of happiness or positive emotions.",
+      "facet_id": "F0115",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Hostility": {
+      "score": -2,
+      "confidence": 0.8,
+      "reasoning": "No expression of hostility in the statement.",
+      "facet_id": "F0133",
+      "category": "emotional",
+      "polarity": "negative"
+    },
+    "Irritability": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "Statement does not indicate irritability or frustration.",
+      "facet_id": "F0359",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Joyfulness": {
+      "score": -2,
+      "confidence": 0.93,
+      "reasoning": "No expression of joy or positive emotions in the statement.",
+      "facet_id": "F0255",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Managing emotions": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Statement suggests difficulty in managing emotions.",
+      "facet_id": "F0284",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Merriness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "No expression of merriment or happiness in the statement.",
+      "facet_id": "F0009",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Moroseness": {
+      "score": 2,
+      "confidence": 0.95,
+      "reasoning": "Expression of wanting not to be here indicates moroseness.",
+      "facet_id": "F0017",
+      "category": "emotional",
+      "polarity": "negative"
+    },
+    "Negative Affect Frequency": {
+      "score": 2,
+      "confidence": 0.88,
+      "reasoning": "Statement shows frequent negative affect.",
+      "facet_id": "F0048",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Patience: Resistance to anger": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "Expression of thoughts without a plan suggests potential lack of patience or resistance to anger.",
+      "facet_id": "F0386",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Psychological construct: Self-Compassion total": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0188",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Social-cognition variable: Cognitive Empathy": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0244",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Type of Support Preferred (Emotional vs. Practical)": {
+      "score": 1,
+      "confidence": 0.88,
+      "reasoning": "The user's statement suggests a need for emotional support regarding their feelings.",
+      "facet_id": "F0384",
+      "category": "emotional",
+      "polarity": "positive"
+    },
+    "Abasement": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "No indication of the user feeling humbled or submissive in this turn.",
+      "facet_id": "F0250",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Achievement Motivation": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "The user expresses fatigue and difficulty, suggesting low motivation.",
+      "facet_id": "F0050",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Acidity": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "The statement conveys a negative sentiment but does not explicitly use acidic language.",
+      "facet_id": "F0003",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Activator: Turning thoughts into action": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "No indication that the user is motivated to take any actions.",
+      "facet_id": "F0182",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Adaptability and Flexibility": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "The user expresses feeling overwhelmed by difficulties, suggesting a lack of flexibility.",
+      "facet_id": "F0246",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Adaptability and Flexibility Subcomponents": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "The user's statement indicates difficulty adapting to challenges.",
+      "facet_id": "F0218",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Aesthetic Appreciation": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of aesthetic or beauty-related topics.",
+      "facet_id": "F0221",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Aestheticism": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of a focus on aesthetics or artistry.",
+      "facet_id": "F0383",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Affinity": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No specific mention of relationships or connections with others.",
+      "facet_id": "F0249",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Alignment with societal roles": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The user's statement does not reflect any particular alignment with societal expectations.",
+      "facet_id": "F0373",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Aloofness": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "The user seems to be seeking support and connection, indicating a lack of aloofness.",
+      "facet_id": "F0019",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Analogies": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No analogies are used in the statement.",
+      "facet_id": "F0274",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Anatomy knowledge": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "The user does not mention any anatomical concepts or knowledge.",
+      "facet_id": "F0036",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Anticipativeness": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of the ability to anticipate future events or outcomes.",
+      "facet_id": "F0367",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Ardency": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "The user's statement does not reflect a strong desire or enthusiasm for anything.",
+      "facet_id": "F0220",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Arts and Humanities": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No mention of arts or humanities subjects or interests.",
+      "facet_id": "F0142",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Astrology: Rising sign is Scorpio": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "The user's statement does not provide any context related to their astrological sign or its traits.",
+      "facet_id": "F0158",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Attachment style: Secure": {
+      "score": 0,
+      "confidence": 0.5,
+      "reasoning": "No clear indication of secure or insecure attachment in the statement.",
+      "facet_id": "F0292",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Attitude toward learning": {
+      "score": 0,
+      "confidence": 0.3,
+      "reasoning": "No information about attitude towards learning provided.",
+      "facet_id": "F0305",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Aura-color perception": {
+      "score": 0,
+      "confidence": 0.1,
+      "reasoning": "No mention of aura or color perception in the statement.",
+      "facet_id": "F0311",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Avoiding": {
+      "score": -2,
+      "confidence": 0.8,
+      "reasoning": "Expression of wanting to not be here indicates avoidance.",
+      "facet_id": "F0368",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Big-heartedness": {
+      "score": 0,
+      "confidence": 0.4,
+      "reasoning": "No clear indication of big-heartedness or lack thereof in the statement.",
+      "facet_id": "F0029",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Binding foundations index": {
+      "score": 0,
+      "confidence": 0.2,
+      "reasoning": "No information about binding foundations provided.",
+      "facet_id": "F0180",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Blog-subscriber count": {
+      "score": 0,
+      "confidence": 0.1,
+      "reasoning": "No mention of blog subscribers in the statement.",
+      "facet_id": "F0294",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Boredom Susceptibility": {
+      "score": 0,
+      "confidence": 0.3,
+      "reasoning": "No information about susceptibility to boredom provided.",
+      "facet_id": "F0232",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Bravery": {
+      "score": -2,
+      "confidence": 0.7,
+      "reasoning": "Expression of wanting not to be here indicates a lack of bravery.",
+      "facet_id": "F0160",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Brazenness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expression of wanting not to be here is brazen and negative.",
+      "facet_id": "F0260",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Cantankerousness": {
+      "score": -2,
+      "confidence": 0.8,
+      "reasoning": "Expression of wanting not to be here indicates a cantankerous attitude.",
+      "facet_id": "F0131",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Character strength: Perseverance": {
+      "score": 0,
+      "confidence": 0.4,
+      "reasoning": "No clear indication of perseverance or lack thereof in the statement.",
+      "facet_id": "F0071",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Childhood Experiences": {
+      "score": 0,
+      "confidence": 0.2,
+      "reasoning": "No information about childhood experiences provided.",
+      "facet_id": "F0161",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Chivalrousness": {
+      "score": 0,
+      "confidence": 0.1,
+      "reasoning": "No mention of chivalrousness in the statement.",
+      "facet_id": "F0042",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Choir participation years": {
+      "score": 0,
+      "confidence": 0.1,
+      "reasoning": "No information about choir participation provided.",
+      "facet_id": "F0326",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Chromatin-accessibility score": {
+      "score": 0,
+      "confidence": 0.1,
+      "reasoning": "No mention of chromatin accessibility in the statement.",
+      "facet_id": "F0136",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Classiness": {
+      "score": 0,
+      "confidence": 0.2,
+      "reasoning": "No information about classiness provided.",
+      "facet_id": "F0337",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Clumsiness": {
+      "score": 0,
+      "confidence": 0.1,
+      "reasoning": "No mention of clumsiness in the statement.",
+      "facet_id": "F0275",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Coarseness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expression of wanting not to be here is coarse and negative.",
+      "facet_id": "F0194",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Collectedness": {
+      "score": 0,
+      "confidence": 0.3,
+      "reasoning": "No clear indication of collectedness or lack thereof in the statement.",
+      "facet_id": "F0280",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Comfort with Vulnerability": {
+      "score": 2,
+      "confidence": 0.95,
+      "reasoning": "Expressing suicidal thoughts shows high comfort with vulnerability.",
+      "facet_id": "F0366",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Common-sense": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "The statement is a personal reflection and does not demonstrate common sense.",
+      "facet_id": "F0005",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Commute time/day": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0297",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Comparing alphanumeric data": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No alphanumeric data comparison is present in the statement.",
+      "facet_id": "F0028",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Competition": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The turn does not mention any form of competition.",
+      "facet_id": "F0072",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Concreteness": {
+      "score": -2,
+      "confidence": 0.8,
+      "reasoning": "The statement is abstract and vague about specific details.",
+      "facet_id": "F0199",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Conformity": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of conforming to norms or expectations is present.",
+      "facet_id": "F0381",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Connectedness: Belief in interconnections": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "The statement suggests a sense of disconnection from others and the world.",
+      "facet_id": "F0374",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Conservatism": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of conservative thinking is present in the turn.",
+      "facet_id": "F0217",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Contribution to Group Goals": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "The statement does not mention any group or goals.",
+      "facet_id": "F0151",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Control over situations": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expressing feelings of being overwhelmed indicates a lack of control.",
+      "facet_id": "F0338",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Controlling Reactions": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of controlling reactions is present in the turn.",
+      "facet_id": "F0226",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Conventional": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "The statement does not follow conventional norms or expectations.",
+      "facet_id": "F0286",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Cooking and Culinary Arts": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No mention of cooking or culinary arts is present in the turn.",
+      "facet_id": "F0166",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Cordiality": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "The tone is not cordial and suggests distress.",
+      "facet_id": "F0378",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Courageousness": {
+      "score": 2,
+      "confidence": 0.95,
+      "reasoning": "Braving the sharing of such personal thoughts shows courage.",
+      "facet_id": "F0254",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Creative resilience": {
+      "score": 1,
+      "confidence": 0.8,
+      "reasoning": "Acknowledging difficulty and continuing to share indicates some level of resilience.",
+      "facet_id": "F0376",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Creativity in solutions": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of creative problem-solving is present in the turn.",
+      "facet_id": "F0172",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Cultural Identity": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention or reference to cultural identity is present in the statement.",
+      "facet_id": "F0100",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Cunningness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "The statement does not indicate any cunning behavior or thoughts.",
+      "facet_id": "F0014",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Dance rehearsal hours/week": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention of dance-related activities.",
+      "facet_id": "F0266",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Dance-cardio sessions": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention of dance-related activities.",
+      "facet_id": "F0052",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Dance-style mastery diversity": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention of dance-related activities.",
+      "facet_id": "F0168",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Data Analysis": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of data analysis activity.",
+      "facet_id": "F0110",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Data-sharing consent level": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of data sharing or consent issues.",
+      "facet_id": "F0162",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Dauntlessness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expression of thoughts about not being here anymore indicates lack of dauntlessness.",
+      "facet_id": "F0198",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Decency": {
+      "score": 1,
+      "confidence": 0.8,
+      "reasoning": "Acknowledging the thoughts to a helper suggests some level of decency.",
+      "facet_id": "F0395",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Defense-mechanism tendency: Introjection": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Expressing such thoughts internally indicates introjection as a defense mechanism.",
+      "facet_id": "F0358",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Desire for excellence": {
+      "score": -2,
+      "confidence": 0.8,
+      "reasoning": "Expression of wanting to end one's existence suggests lack of desire for excellence.",
+      "facet_id": "F0118",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Desire to influence others": {
+      "score": -2,
+      "confidence": 0.75,
+      "reasoning": "No indication of a wish to influence others in this statement.",
+      "facet_id": "F0329",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Desperation": {
+      "score": 2,
+      "confidence": 0.9,
+      "reasoning": "Expression of thoughts about not being here anymore indicates high desperation.",
+      "facet_id": "F0034",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Determinedness": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "Statement suggests a lack of determination to stay.",
+      "facet_id": "F0021",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Digital-nomad months": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of digital nomadism or related activities.",
+      "facet_id": "F0308",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Dignity": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "Expression of thoughts about not being here anymore suggests a lack of dignity.",
+      "facet_id": "F0152",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Discernment practice hours / week": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of discernment practices.",
+      "facet_id": "F0252",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Discreteness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expression of thoughts about not being here anymore indicates a lack of discreteness.",
+      "facet_id": "F0156",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Disrespect": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0031",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Doggedness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expression of thoughts about not being here anymore indicates lack of doggedness.",
+      "facet_id": "F0394",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Drollness": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "Statement is serious and not droll.",
+      "facet_id": "F0320",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Eco-tourism trips": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of eco-tourism or related activities.",
+      "facet_id": "F0041",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Effeteness": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Statement expresses suicidal ideation, which is not effete.",
+      "facet_id": "F0340",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Encouraging participation": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "No encouragement or invitation for the user to share more.",
+      "facet_id": "F0107",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Energy-healing practice: Reiki sessions / year": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No mention of energy healing practices.",
+      "facet_id": "F0157",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Equitableness": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No indication of fairness or equality concerns.",
+      "facet_id": "F0262",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Esteem Needs": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Expression of wanting to end one's life indicates low esteem needs.",
+      "facet_id": "F0203",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Estimating Calculations": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No numerical or estimation-related content present.",
+      "facet_id": "F0083",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Ethical practices": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No mention of ethical practices.",
+      "facet_id": "F0333",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Ethical standards": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No reference to ethical standards.",
+      "facet_id": "F0087",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Ethnocentrism": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No cultural or ethnic references present.",
+      "facet_id": "F0170",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Evaluating Solutions": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No evaluation of solutions or options.",
+      "facet_id": "F0154",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Exemplariness": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No reference to being an example or role model.",
+      "facet_id": "F0184",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Eye-contact duration": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Not applicable in text-based interaction.",
+      "facet_id": "F0147",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "FSH level": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No mention of FSH levels or related biological factors.",
+      "facet_id": "F0032",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Flawlessness": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Expression of wanting to end one's life indicates a lack of perceived flawlessness.",
+      "facet_id": "F0387",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Frankness": {
+      "score": 1,
+      "confidence": 0.85,
+      "reasoning": "User openly shares personal struggles and thoughts.",
+      "facet_id": "F0186",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Gamified-finance-app usage": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No mention of financial apps or games.",
+      "facet_id": "F0363",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Genialness": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Expression of wanting to end one's life is not genial.",
+      "facet_id": "F0331",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Genuine": {
+      "score": 1,
+      "confidence": 0.85,
+      "reasoning": "User openly shares personal struggles and thoughts.",
+      "facet_id": "F0020",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Graffiti appreciation": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "No mention of graffiti or related interests.",
+      "facet_id": "F0241",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Hatefulness": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Expression of wanting to end one's life is not hateful.",
+      "facet_id": "F0345",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Hesitation": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "The use of 'I've been' suggests some thought process over time, but not strong hesitation.",
+      "facet_id": "F0006",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "High-spiritedness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "No indication of high energy or positive mood.",
+      "facet_id": "F0088",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Home-security-system presence": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No direct evidence of home security system mention.",
+      "facet_id": "F0369",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Honesty-humility trait score": {
+      "score": 2,
+      "confidence": 0.95,
+      "reasoning": "Direct expression of internal struggles shows honesty and humility.",
+      "facet_id": "F0307",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "HonestyHumility": {
+      "score": 2,
+      "confidence": 0.95,
+      "reasoning": "Direct expression of internal struggles shows honesty and humility.",
+      "facet_id": "F0022",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Hypomania (Ma)": {
+      "score": -2,
+      "confidence": 0.8,
+      "reasoning": "No indication of elevated mood or energy.",
+      "facet_id": "F0177",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Hysteria (Hy)": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "No signs of emotional instability or dramatic behavior.",
+      "facet_id": "F0200",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "I Ching hexagram 19 resonance level": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No direct evidence related to the I Ching.",
+      "facet_id": "F0277",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "I Ching hexagram 22 resonance level": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No direct evidence related to the I Ching.",
+      "facet_id": "F0291",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "I Ching hexagram 24 resonance level": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No direct evidence related to the I Ching.",
+      "facet_id": "F0354",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "I Ching hexagram 36 resonance level": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No direct evidence related to the I Ching.",
+      "facet_id": "F0138",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "I Ching hexagram 43 resonance level": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No direct evidence related to the I Ching.",
+      "facet_id": "F0270",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "I Ching hexagram 49 resonance level": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No direct evidence related to the I Ching.",
+      "facet_id": "F0283",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "I Ching hexagram 5 resonance level": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No direct evidence related to the I Ching.",
+      "facet_id": "F0235",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Ideas generated/day": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No information about daily idea generation.",
+      "facet_id": "F0263",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Immaturity": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0081",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Impartial-mindedness": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of impartiality or bias in the statement.",
+      "facet_id": "F0102",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Impracticalness": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0108",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Impudence": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "No indication of impudent behavior or speech.",
+      "facet_id": "F0273",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Inattentiveness": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0055",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Independence": {
+      "score": 1,
+      "confidence": 0.85,
+      "reasoning": "Expressing a desire not to be here indicates some level of independence in decision-making.",
+      "facet_id": "F0134",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Individuality": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No clear indication of unique personal traits or preferences.",
+      "facet_id": "F0290",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Inefficiency": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "Complaining about things being hard suggests inefficiency in dealing with challenges.",
+      "facet_id": "F0067",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Information Retention": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No evidence of retaining or recalling specific information.",
+      "facet_id": "F0146",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Initiative": {
+      "score": -1,
+      "confidence": 0.75,
+      "reasoning": "Not taking action on thoughts indicates a lack of initiative.",
+      "facet_id": "F0253",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Innovation and Creativity Components": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No indication of creative or innovative thinking.",
+      "facet_id": "F0049",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Input": {
+      "score": 1,
+      "confidence": 0.9,
+      "reasoning": "Sharing thoughts with the assistant indicates willingness to provide input.",
+      "facet_id": "F0155",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Intellect": {
+      "score": 0,
+      "confidence": 0.55,
+      "reasoning": "No evidence of complex or deep intellectual content.",
+      "facet_id": "F0192",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Intrinsic Motivation": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "Expressing fatigue and thoughts of not being here suggests lack of intrinsic motivation.",
+      "facet_id": "F0101",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Inversion comfort level": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No clear indication of comfort or discomfort with inversion.",
+      "facet_id": "F0121",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Justice-mindedness": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No evidence of concern for fairness or justice in the statement.",
+      "facet_id": "F0059",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Kink-interest diversity": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of interest in kinks or diversity of interests.",
+      "facet_id": "F0245",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Learning Style": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No evidence of a specific learning style.",
+      "facet_id": "F0315",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Learning through movement": {
+      "score": 0,
+      "confidence": 0.55,
+      "reasoning": "No indication of preference for or engagement in physical activities as a learning method.",
+      "facet_id": "F0343",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Liberalism": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No clear political or social stance indicated in the statement.",
+      "facet_id": "F0120",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Local-food sourcing %": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of food sources or preferences.",
+      "facet_id": "F0238",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Macronutrient ratio: carbs": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No dietary information provided in the statement.",
+      "facet_id": "F0236",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Macronutrient ratio: fat": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No dietary information provided in the statement.",
+      "facet_id": "F0165",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Martyrdom": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Expressing a desire not to be here suggests a martyr complex.",
+      "facet_id": "F0124",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Material properties knowledge": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No indication of material science or engineering knowledge in the statement.",
+      "facet_id": "F0132",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Mindfulness facet: Observing": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "No indication of present-moment awareness or observation.",
+      "facet_id": "F0044",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Motivational Drivers": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "User's statement does not provide clear evidence of specific motivational drivers.",
+      "facet_id": "F0313",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Multiculturalism": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No mention or indication of cultural background or diversity.",
+      "facet_id": "F0065",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Museum visits/year": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "User's statement does not provide information about museum visits.",
+      "facet_id": "F0325",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Music-lessons years": {
+      "score": 0,
+      "confidence": 0.55,
+      "reasoning": "No mention or indication of music lessons taken in the past.",
+      "facet_id": "F0207",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Mysteriousness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "User's statement is straightforward and lacks any mysterious elements.",
+      "facet_id": "F0099",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Naivety": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Statement shows some awareness of the situation but not fully naive.",
+      "facet_id": "F0002",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Nationality": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No mention or indication of nationality in the statement.",
+      "facet_id": "F0319",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Open-source contributions": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "User's statement does not provide information about open-source contributions.",
+      "facet_id": "F0288",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Orderliness": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of organizational or neat behavior in the statement.",
+      "facet_id": "F0064",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Originality": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "User's statement does not provide evidence of original thinking.",
+      "facet_id": "F0264",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Outspokenness": {
+      "score": -1,
+      "confidence": 0.7,
+      "reasoning": "User expresses thoughts indirectly and is somewhat hesitant to speak openly.",
+      "facet_id": "F0210",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Overprotectiveness": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No indication of overprotective behavior in the statement.",
+      "facet_id": "F0008",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Parathyroid-hormone level": {
+      "score": 0,
+      "confidence": 0.95,
+      "reasoning": "User's statement does not provide any medical information.",
+      "facet_id": "F0125",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Passive-Aggressive": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "User's indirect expression suggests a mild passive-aggressive tendency but not strongly present.",
+      "facet_id": "F0037",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Passport-stamps count": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No mention or indication of travel history in the statement.",
+      "facet_id": "F0237",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Patient care orientation": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "User's statement does not provide information about patient care orientation.",
+      "facet_id": "F0239",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Patriotism": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of patriotic feelings or actions in the statement.",
+      "facet_id": "F0351",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Peacefulness": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "User expresses feeling overwhelmed and not peaceful.",
+      "facet_id": "F0393",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Perseverance": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of persistent or determined behavior in the statement.",
+      "facet_id": "F0224",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Persistence": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "The statement does not provide evidence of persistence or its absence.",
+      "facet_id": "F0346",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Pet-enrichment activities count": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "No mention of pet-related activities.",
+      "facet_id": "F0382",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Precision of Movements": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "The statement does not describe physical movements.",
+      "facet_id": "F0093",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Preference for Home-Cooked vs Restaurant Meals": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of meal preferences.",
+      "facet_id": "F0242",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Preferred epistemology": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "The statement does not reveal a preferred method of knowledge acquisition.",
+      "facet_id": "F0078",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Psychomotor Ability Subcomponents": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No information about motor skills or abilities.",
+      "facet_id": "F0096",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Public-transport km/week": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention of public transport usage.",
+      "facet_id": "F0268",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Pure Challenge": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The statement does not indicate a preference for challenges.",
+      "facet_id": "F0024",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Quirkiness": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No indication of quirkiness or lack thereof.",
+      "facet_id": "F0375",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Rebelliousness": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The statement does not suggest rebellious behavior.",
+      "facet_id": "F0190",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Regularity of Self-Reflection": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No evidence of regular self-reflection or its absence.",
+      "facet_id": "F0225",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Reliance on context": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "The statement does not provide information about reliance on context.",
+      "facet_id": "F0281",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Safety compliance": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention of safety practices or compliance.",
+      "facet_id": "F0317",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Satya Adherence": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The statement does not indicate adherence to truthfulness.",
+      "facet_id": "F0169",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Scripture memorization verses": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No reference to scripture or memorization practices.",
+      "facet_id": "F0285",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Self Perspective": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "The statement does not reveal a specific self perspective.",
+      "facet_id": "F0033",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Self-Efficacy": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No indication of self-efficacy or its absence.",
+      "facet_id": "F0388",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Self-effacement": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The statement does not suggest a tendency towards self-effacement.",
+      "facet_id": "F0209",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Self-improvement": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No evidence of a focus on self-improvement or its absence.",
+      "facet_id": "F0011",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Self-righteousness": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The statement does not indicate self-righteous behavior.",
+      "facet_id": "F0148",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "SelfDirectedness": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Expressing thoughts of not being here anymore suggests a lack of self-directedness.",
+      "facet_id": "F0106",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "SelfEsteem": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Negative thoughts about existence indicate very low self-esteem.",
+      "facet_id": "F0027",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Selfcontrol": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "Mention of thoughts without a plan suggests difficulty in controlling impulses.",
+      "facet_id": "F0105",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Sensationalism": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No clear indication of seeking attention or excitement.",
+      "facet_id": "F0318",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Sense-of-coherence score": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0058",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Sensitiveness": {
+      "score": 1,
+      "confidence": 0.88,
+      "reasoning": "Expressing emotional distress shows some sensitiveness.",
+      "facet_id": "F0047",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Sensitivity": {
+      "score": 1,
+      "confidence": 0.92,
+      "reasoning": "Mention of being tired of hard things indicates sensitivity to challenges.",
+      "facet_id": "F0195",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Serotonin transporter availability": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0150",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Servility": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expressing a desire to not be here anymore indicates lack of servility or willingness to serve.",
+      "facet_id": "F0353",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Significance: Desire to make an impact": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Negative thoughts about existence suggest a low desire to make an impact.",
+      "facet_id": "F0230",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Slothfulness": {
+      "score": 1,
+      "confidence": 0.75,
+      "reasoning": "Expressing tiredness of hard things suggests some slothfulness or lack of motivation.",
+      "facet_id": "F0114",
+      "category": "general",
+      "polarity": "negative"
+    },
+    "Specialist": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Negative thoughts about existence indicate a lack of specialist status.",
+      "facet_id": "F0018",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Sportsmanship rating": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Negative thoughts suggest poor sportsmanship or resilience.",
+      "facet_id": "F0080",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Stress Recovery Ability": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Expressing persistent negative thoughts indicates low stress recovery ability.",
+      "facet_id": "F0356",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Structure": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Negative thoughts about existence suggest a lack of structured thinking or coping mechanisms.",
+      "facet_id": "F0040",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Submission": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expressing a desire to not be here anymore indicates submission to negative thoughts.",
+      "facet_id": "F0185",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Submissiveness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Negative thoughts about existence indicate submissiveness to despair.",
+      "facet_id": "F0045",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Subscription count": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No clear indication of subscription behavior.",
+      "facet_id": "F0060",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Suspicion": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Negative thoughts suggest some level of suspicion or mistrust in one's own situation.",
+      "facet_id": "F0256",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Sustainable-transport usage": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No clear indication of sustainable transport usage in the statement.",
+      "facet_id": "F0074",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Talkativeness": {
+      "score": 0,
+      "confidence": 0.95,
+      "reasoning": "The turn is a single statement and does not provide evidence of talkativeness.",
+      "facet_id": "F0261",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Tendency Toward Compromise or Confrontation": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "No indication of willingness to compromise or confront others.",
+      "facet_id": "F0276",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Time Orientation End Points": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "The statement does not indicate a preference for past, present, or future orientation.",
+      "facet_id": "F0259",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Time outdoors/day (h)": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No information about time spent outdoors is provided in the turn.",
+      "facet_id": "F0339",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Travel-companions diversity": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The statement does not mention travel or companions.",
+      "facet_id": "F0360",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Troubleshooting technical issues": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No technical troubleshooting is discussed in the turn.",
+      "facet_id": "F0357",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Understanding Mathematical Concepts": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "The statement does not involve mathematical concepts.",
+      "facet_id": "F0176",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Understanding mechanical concepts": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mechanical understanding is evident in the turn.",
+      "facet_id": "F0204",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Use of Mathematical Formulas": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "The statement does not use or mention mathematical formulas.",
+      "facet_id": "F0193",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Use of Nature as a Stress Reliever": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No reference to nature or its stress-relieving qualities is present in the turn.",
+      "facet_id": "F0304",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Value orientation: Universalism": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "The statement does not reflect a universalist value orientation.",
+      "facet_id": "F0223",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Vivacity": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No indication of vivacity or liveliness is present in the turn.",
+      "facet_id": "F0330",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Wake-time consistency": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "The statement does not provide information about wake-time consistency.",
+      "facet_id": "F0348",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Warmheartedness": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No indication of warmheartedness is present in the turn.",
+      "facet_id": "F0208",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Well-being component: Engagement": {
+      "score": -1,
+      "confidence": 0.9,
+      "reasoning": "The user expresses feeling tired and overwhelmed, suggesting low engagement.",
+      "facet_id": "F0139",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Withdrawnness": {
+      "score": 2,
+      "confidence": 0.85,
+      "reasoning": "The statement indicates a desire to not be here anymore, showing high withdrawnness.",
+      "facet_id": "F0215",
+      "category": "general",
+      "polarity": "positive"
+    },
+    "Basophil count": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "No information about basophil count is provided in the turn.",
+      "facet_id": "F0257",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Caffeine intake (mg/day)": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "The statement does not mention caffeine intake.",
+      "facet_id": "F0365",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Caffeine sensitivity gene": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "No information about caffeine sensitivity is provided in the turn.",
+      "facet_id": "F0344",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Chronic pain presence": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "The statement does not mention chronic pain or related issues.",
+      "facet_id": "F0251",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Dietary Habits": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No information about dietary habits is provided.",
+      "facet_id": "F0229",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Health-literacy level": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No explicit health literacy indicators are present.",
+      "facet_id": "F0082",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Immune-response age": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "Age-related immune response is not mentioned or implied.",
+      "facet_id": "F0243",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Metabolic Rate (Low or High)": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No information about metabolic rate is given.",
+      "facet_id": "F0228",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Sleep Apnea": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of sleep apnea symptoms or issues.",
+      "facet_id": "F0336",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Sleep-disorder diagnosis": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No reference to diagnosed sleep disorders is present.",
+      "facet_id": "F0090",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Sleep-environment temperature": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "Temperature of the sleeping environment is not discussed.",
+      "facet_id": "F0211",
+      "category": "health",
+      "polarity": "positive"
+    },
+    "Brevity": {
+      "score": -1,
+      "confidence": 0.95,
+      "reasoning": "The statement is somewhat lengthy and detailed.",
+      "facet_id": "F0063",
+      "category": "linguistic",
+      "polarity": "positive"
+    },
+    "Language use": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "Standard language use without any specific linguistic features highlighted.",
+      "facet_id": "F0167",
+      "category": "linguistic",
+      "polarity": "positive"
+    },
+    "Listening Skills Subcomponents": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No evidence of listening skills or their subcomponents is present.",
+      "facet_id": "F0091",
+      "category": "linguistic",
+      "polarity": "positive"
+    },
+    "Non-Verbal Communication Skills": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No non-verbal communication details are provided in the text.",
+      "facet_id": "F0295",
+      "category": "linguistic",
+      "polarity": "positive"
+    },
+    "Sentence Structure": {
+      "score": 0,
+      "confidence": 0.9,
+      "reasoning": "Standard sentence structure is used without complex or fragmented sentences.",
+      "facet_id": "F0202",
+      "category": "linguistic",
+      "polarity": "positive"
+    },
+    "Spelling Accuracy": {
+      "score": 2,
+      "confidence": 0.95,
+      "reasoning": "The text is free of spelling errors and accurately spelled words are used.",
+      "facet_id": "F0391",
+      "category": "linguistic",
+      "polarity": "positive"
+    },
+    "Storytelling proficiency": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "While the statement conveys a story, it lacks narrative complexity or vividness.",
+      "facet_id": "F0206",
+      "category": "linguistic",
+      "polarity": "positive"
+    },
+    "Assertiveness and control in relationships": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "The user is not assertive but rather passive about their thoughts.",
+      "facet_id": "F0013",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Big Five facet Openness \u2013 Artistic Interests": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of artistic interests or openness to new experiences.",
+      "facet_id": "F0128",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Conscientiousness (C)": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "The user expresses a lack of control and planning in their thoughts.",
+      "facet_id": "F0303",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Conscientiousness Facets": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "No evidence of organization or self-discipline is present.",
+      "facet_id": "F0306",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Disagreeableness": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "The user does not express disagreement with others in the text.",
+      "facet_id": "F0271",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Enneagram Personality Types": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No specific personality type indicators are present in the statement.",
+      "facet_id": "F0355",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "HEXACO Personality Inventory Facets": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0153",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "HEXACO domain: Honesty-Humility": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0370",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Impulsivity": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Lack of a concrete plan suggests some impulsivity but not strongly expressed.",
+      "facet_id": "F0324",
+      "category": "personality",
+      "polarity": "negative"
+    },
+    "Judging (J)": {
+      "score": 0,
+      "confidence": 0.0,
+      "reasoning": "Model did not return a score for this facet.",
+      "facet_id": "F0127",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Judging Consequences": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "Lack of consideration for consequences shows low judging of consequences.",
+      "facet_id": "F0247",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Neuroticism": {
+      "score": 1,
+      "confidence": 0.9,
+      "reasoning": "Expression of emotional distress indicates some neuroticism but not extreme.",
+      "facet_id": "F0117",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Openness": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Statement is emotionally focused rather than creative or open-minded.",
+      "facet_id": "F0026",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Perceiving": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "No indication of perceptive skills or awareness in the statement.",
+      "facet_id": "F0119",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Psychoticism": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "No psychotic-like behavior or delusions are evident in the statement.",
+      "facet_id": "F0112",
+      "category": "personality",
+      "polarity": "positive"
+    },
+    "Unassertiveness": {
+      "score": 1,
+      "confidence": 0.9,
+      "reasoning": "Statement is somewhat indirect and hesitant about expressing thoughts.",
+      "facet_id": "F0056",
+      "category": "personality",
+      "polarity": "negative"
+    },
+    "Alphabetical filing skills": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No evidence of alphabetical filing skills in the statement.",
+      "facet_id": "F0069",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Computer Skills": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention or indication of computer skills in the statement.",
+      "facet_id": "F0389",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Delegation Ability": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No evidence of delegation ability in the statement.",
+      "facet_id": "F0327",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Delegation skills": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention or indication of delegation skills in the statement.",
+      "facet_id": "F0282",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Hardworking": {
+      "score": -1,
+      "confidence": 0.9,
+      "reasoning": "Expression of fatigue and difficulty indicates a lack of motivation.",
+      "facet_id": "F0075",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Meeting Deadlines": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "Statement suggests difficulty meeting expectations or deadlines.",
+      "facet_id": "F0109",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Network basics": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention or indication of networking skills in the statement.",
+      "facet_id": "F0068",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Numeric Filing Skills": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No evidence of numeric filing skills in the statement.",
+      "facet_id": "F0123",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Skill-endorsements count": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention or indication of skill endorsements in the statement.",
+      "facet_id": "F0098",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Soft-skill training hours": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No evidence of soft-skill training in the statement.",
+      "facet_id": "F0240",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Training-cycle length": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No information about learning or training cycles.",
+      "facet_id": "F0046",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Work Styles": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of work habits or styles.",
+      "facet_id": "F0070",
+      "category": "professional",
+      "polarity": "positive"
+    },
+    "Creative risk-taking tendency": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of creative or risky behavior.",
+      "facet_id": "F0066",
+      "category": "safety",
+      "polarity": "positive"
+    },
+    "Dishonesty": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expressing suicidal thoughts indirectly suggests dishonesty about true feelings.",
+      "facet_id": "F0077",
+      "category": "safety",
+      "polarity": "negative"
+    },
+    "Drug-use history": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of drug use or related behaviors.",
+      "facet_id": "F0296",
+      "category": "safety",
+      "polarity": "positive"
+    },
+    "Harmfulness": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Expressing thoughts of not being here anymore indicates harmful intent.",
+      "facet_id": "F0248",
+      "category": "safety",
+      "polarity": "negative"
+    },
+    "Physical-violence exposure": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No information about physical violence or exposure.",
+      "facet_id": "F0164",
+      "category": "safety",
+      "polarity": "positive"
+    },
+    "Polygenic risk: cardiovascular disease": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No mention of health risks or conditions.",
+      "facet_id": "F0341",
+      "category": "safety",
+      "polarity": "positive"
+    },
+    "Risktaking": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of risky behavior or tendencies.",
+      "facet_id": "F0001",
+      "category": "safety",
+      "polarity": "positive"
+    },
+    "Affiliation Motivation": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "Expressing a desire to not be here suggests low affiliation motivation.",
+      "facet_id": "F0035",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Civility": {
+      "score": 1,
+      "confidence": 0.9,
+      "reasoning": "Acknowledging the isolating nature of thoughts shows some civility.",
+      "facet_id": "F0335",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Collaboration": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "Expressing a desire to not be here indicates a lack of willingness to collaborate.",
+      "facet_id": "F0092",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Cooperation": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Desiring isolation shows a lack of cooperation.",
+      "facet_id": "F0321",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Democratic Leadership": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "Expressing a desire to not be here suggests a preference for individual over group decision-making.",
+      "facet_id": "F0004",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Ethical leadership rating": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Expressing thoughts of not being here anymore indicates unethical behavior.",
+      "facet_id": "F0113",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Leadership Potential": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "Expressing a desire to not be here suggests poor leadership potential.",
+      "facet_id": "F0086",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Leadership Styles": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "Desiring isolation indicates an autocratic or self-centered leadership style.",
+      "facet_id": "F0352",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Leadership Styles and Behaviors": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "Expressing a desire to not be here suggests poor leadership behaviors.",
+      "facet_id": "F0234",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Need for social interaction": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "Desiring isolation indicates low need for social interaction.",
+      "facet_id": "F0140",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Participation in Community Activities": {
+      "score": -2,
+      "confidence": 0.85,
+      "reasoning": "Expressing a desire to not be here suggests lack of community involvement or participation.",
+      "facet_id": "F0272",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Peer-collaboration hours": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No evidence of peer interaction or collaboration.",
+      "facet_id": "F0141",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Peer-to-peer lending usage": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention of peer-to-peer financial transactions.",
+      "facet_id": "F0300",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Relationship Building Themes": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "User is expressing personal struggles without building a relationship.",
+      "facet_id": "F0023",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Role of Spirituality in Community Involvement": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No indication of spiritual community involvement or practices.",
+      "facet_id": "F0039",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Social Boldness": {
+      "score": -2,
+      "confidence": 0.9,
+      "reasoning": "User expresses thoughts of not being here anymore, indicating lack of boldness.",
+      "facet_id": "F0094",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Social Desirability Bias": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No evidence of bias towards socially desirable behaviors or avoidance of negative ones.",
+      "facet_id": "F0269",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Social Interaction Skills": {
+      "score": -1,
+      "confidence": 0.8,
+      "reasoning": "User is expressing personal struggles without engaging in social interaction.",
+      "facet_id": "F0111",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Social-cognition variable: Faux Pas Recognition accuracy": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No evidence of recognizing or making faux pas.",
+      "facet_id": "F0302",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Social-cognition variable: Mentalizing network activation": {
+      "score": -1,
+      "confidence": 0.85,
+      "reasoning": "User is not engaging in mentalizing about others' perspectives.",
+      "facet_id": "F0350",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Transactional Leadership": {
+      "score": 0,
+      "confidence": 0.6,
+      "reasoning": "No indication of leadership or management roles.",
+      "facet_id": "F0222",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Trust in others": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "User expresses thoughts of not being here anymore, indicating low trust in self and possibly others.",
+      "facet_id": "F0362",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Volunteer Work": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of volunteer activities or community service.",
+      "facet_id": "F0191",
+      "category": "social",
+      "polarity": "positive"
+    },
+    "Bah\u00e1\u2019\u00ed spiritual metric: Ridv\u00e1n festival participation": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No indication of Bah\u00e1\u2019\u00ed religious practices or events.",
+      "facet_id": "F0144",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Buddhist practice: Eightfold Path \u2013 Right Intention level": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No evidence of following the Buddhist path or intentions.",
+      "facet_id": "F0364",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Gnostic spiritual metric: Archon meditation frequency": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of Gnostic practices or meditations.",
+      "facet_id": "F0183",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Hindu spiritual metric: Bhagavad-Gita study hours": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of studying the Bhagavad-Gita.",
+      "facet_id": "F0287",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Hindu spiritual metric: Vrata vows observed / year": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No mention of observing Hindu vows or practices.",
+      "facet_id": "F0219",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Hindu spiritual metric: Yoga discipline hours / week": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No evidence of practicing yoga regularly.",
+      "facet_id": "F0216",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Holiness": {
+      "score": -2,
+      "confidence": 0.95,
+      "reasoning": "User expresses thoughts of not being here anymore, indicating a lack of holiness or spiritual well-being.",
+      "facet_id": "F0104",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Islamic practice: Seerah study hours": {
+      "score": 0,
+      "confidence": 0.65,
+      "reasoning": "No indication of studying the life of Prophet Muhammad (Seerah).",
+      "facet_id": "F0316",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Jewish spiritual metric: Shabbat candle-lighting consistency": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No mention of Shabbat or candle-lighting habits.",
+      "facet_id": "F0390",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Jewish spiritual metric: Sukkot lulav-shaking days": {
+      "score": 0,
+      "confidence": 0.85,
+      "reasoning": "No reference to Sukkot or lulav-shaking practices.",
+      "facet_id": "F0201",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Kabbalah sephira balance: Tiferet": {
+      "score": 0,
+      "confidence": 0.7,
+      "reasoning": "No indication of Kabbalistic practice or Tiferet focus.",
+      "facet_id": "F0328",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "New-Age spiritual metric: Channeling sessions / year": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of channeling or related practices.",
+      "facet_id": "F0334",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Pilgrimage participation count": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No reference to pilgrimages or sacred travels.",
+      "facet_id": "F0043",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Practice frequency: Mantra meditation": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No indication of mantra meditation practice.",
+      "facet_id": "F0267",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Practice frequency: Walking meditation": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No mention of walking meditation or related practices.",
+      "facet_id": "F0174",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Presence of Spiritual Pain": {
+      "score": 2,
+      "confidence": 0.95,
+      "reasoning": "Expression of wanting to not be here anymore indicates significant spiritual pain.",
+      "facet_id": "F0038",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Religious coping \u2013 Negative": {
+      "score": -2,
+      "confidence": 0.98,
+      "reasoning": "Statement suggests negative coping mechanisms or distress.",
+      "facet_id": "F0309",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Religious practice: Quran khatam cycles per year": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No mention of Quran reading or related practices.",
+      "facet_id": "F0143",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Sacred text engagement: Quran surahs memorized": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No reference to Quran memorization or study.",
+      "facet_id": "F0361",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Sacred text engagement: Zohar (Kabbalah) study hours": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of Zohar study or related practices.",
+      "facet_id": "F0312",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Sikh spiritual metric: Kirtan participation frequency": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of Kirtan or Sikh-related practices.",
+      "facet_id": "F0323",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Spiritual virtue: Humility practice index": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No indication of humility practice or related virtues.",
+      "facet_id": "F0137",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Sufi practice: Dhikr repetitions / day": {
+      "score": 0,
+      "confidence": 0.8,
+      "reasoning": "No mention of Dhikr or Sufi-related practices.",
+      "facet_id": "F0392",
+      "category": "spiritual",
+      "polarity": "positive"
+    },
+    "Sufi practice: Sufi retreat attendance count": {
+      "score": 0,
+      "confidence": 0.75,
+      "reasoning": "No reference to Sufi retreats or related practices.",
+      "facet_id": "F0135",
+      "category": "spiritual",
+      "polarity": "positive"
+    }
+  },
+  "metadata": {
+    "model": "qwen2.5:7b",
+    "total_facets_scored": 396,
+    "facets_requested": 396,
+    "processing_time_ms": 475138,
+    "batches_used": 20,
+    "turn_evaluated": "I've been having thoughts that it would be easier if I wasn't here anymore."
+  }
+}

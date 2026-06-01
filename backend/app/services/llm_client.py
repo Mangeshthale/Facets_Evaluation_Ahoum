@@ -9,6 +9,7 @@ if you're not running locally.
 from __future__ import annotations
 import json
 import httpx
+import os as _os
 
 from app.core.config import settings
 
@@ -63,3 +64,11 @@ class OllamaClient:
 
 # Singleton
 ollama = OllamaClient()
+
+if _os.getenv("GROQ_API_KEY"):
+    from app.services.llm_client_groq import groq_client as ollama  # noqa
+    import logging as _log
+    _log.getLogger(__name__).info("🌐 Groq API detected — using cloud mode")
+else:
+    import logging as _log
+    _log.getLogger(__name__).info("🖥  No GROQ_API_KEY — using local Ollama")
