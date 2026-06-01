@@ -8,6 +8,7 @@ variables or a .env file in the backend directory.
 from pydantic_settings import BaseSettings
 from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
+import os 
 
 
 class Settings(BaseSettings):
